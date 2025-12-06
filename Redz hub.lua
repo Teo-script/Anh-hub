@@ -1,8 +1,8 @@
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/SLK-gaming/New-Gui/refs/heads/main/New-Redz.lua"))()
 
 local Window = redzlib:MakeWindow({
-  Title = "Redz Hub [Mod] : Blox Fruits",
-  SubTitle = "By Naknohack",
+  Title = "redz Hub : Blox Fruits",
+  SubTitle = "by real_redz",
   SaveFolder = "Redz Mod.lua"
 })
 
@@ -13,17 +13,17 @@ Window:AddMinimizeButton({
 
 local TabDiscord = Window:MakeTab({"Discord", "info"})
 
-local TabFarm = Window:MakeTab({"Farm", "home"})
+local TabFarm = Window:MakeTab({"Fram", "home"})
 
-local TabSea = Window:MakeTab({"Sea event", "waves"})
+local TabSea = Window:MakeTab({"Sea", "waves"})
 
 local TabFish = Window:MakeTab({"Fishing", "fish"})
 
 local TabItem = Window:MakeTab({"Items", "swords"})
 
-local TabFruit = Window:MakeTab({"Fruits/Raid", "cherry"})
+local TabFruit = Window:MakeTab({"Fruit / Raid", "cherry"})
 
-local TabServer = Window:MakeTab({"Sever", "gem"})
+local TabServer = Window:MakeTab({"Race-v4", "moon"})
 
 local TabStats = Window:MakeTab({"Stast", "signal"})
 
@@ -31,17 +31,15 @@ local TabTeleport = Window:MakeTab({"Teleport", "locate"})
 
 local TabVisual = Window:MakeTab({"Player", "user"})
 
-local TabShop = Window:MakeTab({"Shopping", "shoppingCart"})
+local TabShop = Window:MakeTab({"Shop", "shoppingCart"})
 
 local TabSettings = Window:MakeTab({"Setting", "settings"})
 
-local TabVisual = Window:MakeTab({"Bí ẩn", "user")}
-
 TabDiscord:AddDiscordInvite({
-    Name = "Redz Fake | Community",
-    Description = "Tham gia nhóm discord để nhận thông báo update mới",
+    Name = "Redz Hub | Community",
+    Description = "Join discord for new announcements",
     Logo = "rbxassetid://87245917237197",
-    Invite = "https://discord.gg/b9QX2NBj",
+    Invite = "https://discord.gg/redz-hub",
 })
 
 
@@ -714,9 +712,9 @@ end)
 ------------------------------------------------
 -- 🌈 MODE FARM
 ------------------------------------------------
-local ModeList = {"Quest", "Normal", "Nearest"}
+local ModeList = {"Normal", "Fast Attack", "Super Attack"}
 TabFarm:AddDropdown({
-	Name = "Chọn Chế Độ",
+	Name = "Chọn Tốc Độ Đánh",
 	Options = ModeList,
 	Default = _G.FarmMode,
 	Callback = function(Value)
@@ -3035,10 +3033,10 @@ TabVisual:AddToggle({
 })
 
 ---------------------------------------------------------------------------------
--- Phần Bí Ẩn
+-- Phần Cửa Hàng
 ---------------------------------------------------------------------------------
 
-local Section = TabVisual:AddSection({"Xương"})
+local Section = TabShop:AddSection({"Xương"})
 
 -- 💀 AUTO RANDOM BONE
 TabShop:AddToggle({
@@ -3088,10 +3086,10 @@ TabShop:AddToggle({
 
 local Section = TabShop:AddSection({"Kỹ Năng"})
 
--- Auto fishing
-TabVisual:AddButton({
-    Name = "Câu Cá",
-    Description = "Tự Động Câu Cá",
+-- 🛒 Mua từng Haki riêng lẻ
+TabShop:AddButton({
+    Name = "Buy Geppo [ $10,000 ]",
+    Description = "Mua kỹ năng Geppo",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyHaki", "Geppo")
     end
