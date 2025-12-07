@@ -1,0 +1,153 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "HoangAnh hub",
+         Animation = "Tiktok : trumchoaescript_230"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "https://discord.gg/Q8RB2Y2RNV",
+        Keys = {"cocailonhaha"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=83836195973997",
+       Size = {40, 40},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Script Farm"})
+     local Tab2o = MakeTab({Name = "Script 99 đêm"})
+     local Tab3o = MakeTab({Name = "Script linh tinh"})
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "Redz Hub 100%",
+    Callback = function()
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/20f318386e3fbf069ee3fa797cfc9f34.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "TeddyHub",
+    Callback = function()
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TeddyHub.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Gravity Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "rubu Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/rubuhubv5.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Falo Tiếng Việt",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/trungdao2k4/buffalo/refs/heads/main/buffalomain.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "OMG",
+    Callback = function()
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/20f318386e3fbf069ee3fa797cfc9f34.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Azure Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/85e904ae1ff30824c1aa007fc7324f8f.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Master Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/obfmoonsec/Masterhub/refs/heads/main/obf"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "NazuX Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/NguyenAnhKhoaX/Anhkhoa2279/refs/heads/main/BloxFruits.lua"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "kkkk Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FoxnameHub.lua"))()
+  end
+  })
+  
+  AddButton(Tab3o, {
+     Name = "redz Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/20f318386e3fbf069ee3fa797cfc9f34.lua"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "...",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/GEC0/gec/refs/heads/main/Gec.Loader", true))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "TBT",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/DuyThinhNek12/Script/refs/heads/main/TDT99Night.lua.txt"))()
+  end
+  })
+  
+  AddButton(Tab3o, {
+     Name = "bay",
+    Callback = function()
+	  loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fly-gui-v3-30439"))()
+  end
+  })
+  AddButton(Tab2o, {
+     Name = "foxname hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FoxnameHub.lua"))()
+  end
+  })
+  AddButton(Tab2o, {
+     Name = "kaitun day",
+    Callback = function()
+	  loadstring(game:HttpGt('htps://raw.githubusercontent.com/MQPS7/99-Night-in-the-Forset/refs/heads/main/Gfarm'))()
+  end
+  })
+  AddButton(Tab3o, {
+     Name = "dupe diamond",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/daukhanhan34-spec/SCRIPT/refs/heads/main/FAKEDIMOND.lua"))()
+  end
+  })
