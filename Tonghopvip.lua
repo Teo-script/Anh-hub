@@ -34,7 +34,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab2o = MakeTab({Name = "Script 99 đêm"})
      local Tab3o = MakeTab({Name = "Script linh tinh"})
      local Tab4o = MakeTab({Name = "Grow a garden"})
-     local Tab5o = MakeTab({Name = "Blue lock rivals")}
+     local Tab5o = MakeTab({Name = "Blue lock rivals"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -160,7 +160,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepza
   end
   })
   AddButton(Tab5o, {
-     Name = "control ball",
+     Name = "Control ball",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/RedJDarks/MAIN/refs/heads/main/ControlRecreate"))()
   end
