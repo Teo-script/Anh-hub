@@ -9,8 +9,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         KeySystem = false,
         Title = "Key System",
         Description = "",
-        KeyLink = "https://discord.gg/Q8RB2Y2RNV",
-        Keys = {"cocailonhaha"},
+        KeyLink = "",
+        Keys = {"1234"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Running the Script...",
@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=84957548476668",
+       Image = "http://www.roblox.com/asset/?id=83836195973997",
        Size = {40, 40},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -33,6 +33,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab1o = MakeTab({Name = "Script Farm"})
      local Tab2o = MakeTab({Name = "Script 99 đêm"})
      local Tab3o = MakeTab({Name = "Script linh tinh"})
+     local Tab4o = MakeTab({Name = "Blue lock rivals"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -106,7 +107,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepza
   end
   })
   
-  AddButton(Tab3o, {
+  AddButton(Tab1o, {
      Name = "redz Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/20f318386e3fbf069ee3fa797cfc9f34.lua"))()
@@ -133,21 +134,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepza
 	  loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fly-gui-v3-30439"))()
   end
   })
-  AddButton(Tab2o, {
-     Name = "foxname hub",
+  AddButton(Tab4o, {
+     Name = "Control ball",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FoxnameHub.lua"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/RedJDarks/MAIN/refs/heads/main/ControlRecreate"))()
   end
   })
   AddButton(Tab2o, {
-     Name = "kaitun day",
+     Name = "Zysume hub",
     Callback = function()
-	  loadstring(game:HttpGt('htps://raw.githubusercontent.com/MQPS7/99-Night-in-the-Forset/refs/heads/main/Gfarm'))()
-  end
-  })
-  AddButton(Tab3o, {
-     Name = "dupe diamond",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/daukhanhan34-spec/SCRIPT/refs/heads/main/FAKEDIMOND.lua"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ZusumeHub/ZusumeHub/refs/heads/main/UpdateZysume"))()
   end
   })
