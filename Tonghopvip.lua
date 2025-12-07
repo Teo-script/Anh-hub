@@ -33,6 +33,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab1o = MakeTab({Name = "Script Farm"})
      local Tab2o = MakeTab({Name = "Script 99 đêm"})
      local Tab3o = MakeTab({Name = "Script linh tinh"})
+     local Tab4o = MakeTab({Name = "Grow a garden"})
 ------- BUTTON
     
     AddButton(Tab1o, {
