@@ -140,9 +140,54 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepza
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/RedJDarks/MAIN/refs/heads/main/ControlRecreate"))()
   end
   })
-  AddButton(Tab2o, {
+  AddButton(Tab3o, {
      Name = "Zysume hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ZusumeHub/ZusumeHub/refs/heads/main/UpdateZysume"))()
+  end
+  })
+  AddButton(Tab2o, {
+     Name = "Foxname hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FoxnameHub.lua"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Nak no hack",
+    Callback = function()
+	  getgenv().Team = "Marines"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Naknohack/NakHubBF/refs/heads/main/Nakhubv2"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Omg hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "TrongNguyen hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/trongdeptraihucscript/Script-BloxFruit/refs/heads/main/TrongNguyenSkidder.lua"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Xeter v4",
+    Callback = function()
+	  getgenv().Version = "V4"
+getgenv().Team = "Marines"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs/heads/main/Main.lua"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "TuanAnh IOS",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/TuanAnhIOS/refs/heads/main/TuanAnhIOS.lua"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Aimbot TuanAnh",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/AimBotSkibidi/refs/heads/main/TuanAnhIOS-AIMBOT.Lua"))()
   end
   })
