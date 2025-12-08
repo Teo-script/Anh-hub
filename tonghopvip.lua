@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=83836195973997",
+       Image = "http://www.roblox.com/asset/?id= 136970734571402",
        Size = {40, 40},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -36,7 +36,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab4o = MakeTab({Name = "Blue lock rivals"})
      local Tab5o = MakeTab({Name = "Grow a garden"})
      local Tab6o = MakeTab({Name = "Tổng hợp khác"})
-     local Tab7o = MakeTab({Name = "Doors"})
+     local Tab7o = MakeTab({Name = "Steal a brainrot"})
+     local Tab8o = MakeTab({Name = "Meme sea [UPDATE 4]"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -228,5 +229,28 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs
      Name = "TuanAnh tổng hợp",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/TuanAnhIOSNew/refs/heads/main/TuanAnhIOS-TongHop.Lua"))()
+  end
+  })
+  AddButton(Ta76o, {
+     Name = "Kurd hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Ninja10908/S4/refs/heads/main/Kurdhub"))()
+  end
+  })
+  AddButton(Tab7o, {
+     Name = "Chill hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua"))()
+  end
+  })
+  AddButton(Tab8o, {
+     Name = "Redz hub meme sea",
+    Callback = function()
+	  local Settings = {
+    JoinTeam = "Pirates"; -- Pirates / Marines
+    Translator = true;   -- true / false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))(Settings)
   end
   })
