@@ -231,7 +231,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/TuanAnhIOSNew/refs/heads/main/TuanAnhIOS-TongHop.Lua"))()
   end
   })
-  AddButton(Ta76o, {
+  AddButton(Ta7o, {
      Name = "Kurd hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Ninja10908/S4/refs/heads/main/Kurdhub"))()
