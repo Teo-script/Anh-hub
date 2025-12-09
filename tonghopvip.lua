@@ -38,6 +38,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab6o = MakeTab({Name = "Tổng hợp khác"})
      local Tab7o = MakeTab({Name = "Steal a brainrot"})
      local Tab8o = MakeTab({Name = "Meme sea [UPDATE 4]"})
+     local Tab8o = MakeTab{(Name = "Plants vs brainrot"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -231,7 +232,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/TuanAnhIOSNew/refs/heads/main/TuanAnhIOS-TongHop.Lua"))()
   end
   })
-  AddButton(Ta7o, {
+  AddButton(Tab7o, {
      Name = "Kurd hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Ninja10908/S4/refs/heads/main/Kurdhub"))()
@@ -252,5 +253,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs
 }
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))(Settings)
+  end
+  })
+  AddButton(Tab8o, {
+     Name = "Ko bt tên",
+    Callback = function()
+	  loadstring(game:HttpGet("https://saki-hub.vercel.app/pvb.lua"))()
   end
   })
