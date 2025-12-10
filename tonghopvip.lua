@@ -1,12 +1,12 @@
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
 
        local Window = MakeWindow({
-        Hub = {
-        Title = "H.anh gamming",
-        Amimation = "rep chuỗi đi ní"
-        },
-       Key = {
-       KeySystem = false,
+         Hub = {
+         Title = "HoangAnh hub",
+         Animation = "Sẽ gầy :))"
+         },
+        Key = {
+        KeySystem = false,
         Title = "Key System",
         Description = "",
         KeyLink = "",
@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=829481047263",
+       Image = "http://www.roblox.com/asset/?id= 136970734571402",
        Size = {40, 40},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -31,19 +31,226 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Farm"})
+     local Tab2o = MakeTab({Name = "Script 99 đêm"})
+     local Tab3o = MakeTab({Name = "Script linh tinh"})
+     local Tab4o = MakeTab({Name = "Blue lock rivals"})
+     local Tab5o = MakeTab({Name = "Grow a garden"})
+     local Tab6o = MakeTab({Name = "Tổng hợp khác"})
+     local Tab7o = MakeTab({Name = "Steal a brainrot"})
+     local Tab8o = MakeTab({Name = "Meme sea [UPDATE 4]"})
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "Redz Hub by Phong",
+     Name = "Redz Hub 100%",
     Callback = function()
 	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/20f318386e3fbf069ee3fa797cfc9f34.lua"))()
   end
   })
   
   AddButton(Tab1o, {
-     Name = "Teddy Hub",
+     Name = "TeddyHub",
     Callback = function()
 	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TeddyHub.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Gravity Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "rubu Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/rubuhubv5.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Falo Tiếng Việt",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/trungdao2k4/buffalo/refs/heads/main/buffalomain.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "OMG",
+    Callback = function()
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/20f318386e3fbf069ee3fa797cfc9f34.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Azure Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/85e904ae1ff30824c1aa007fc7324f8f.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Master Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/obfmoonsec/Masterhub/refs/heads/main/obf"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "NazuX Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/NguyenAnhKhoaX/Anhkhoa2279/refs/heads/main/BloxFruits.lua"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "kkkk Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FoxnameHub.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "redz Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/20f318386e3fbf069ee3fa797cfc9f34.lua"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "...",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/GEC0/gec/refs/heads/main/Gec.Loader", true))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "TBT",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/DuyThinhNek12/Script/refs/heads/main/TDT99Night.lua.txt"))()
+  end
+  })
+  
+  AddButton(Tab3o, {
+     Name = "bay",
+    Callback = function()
+	  loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fly-gui-v3-30439"))()
+  end
+  })
+  AddButton(Tab4o, {
+     Name = "Control ball",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/RedJDarks/MAIN/refs/heads/main/ControlRecreate"))()
+  end
+  })
+  AddButton(Tab5o, {
+     Name = "Zysume hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ZusumeHub/ZusumeHub/refs/heads/main/UpdateZysume"))()
+  end
+  })
+  AddButton(Tab2o, {
+     Name = "Foxname hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FoxnameHub.lua"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Nak no hack",
+    Callback = function()
+	  getgenv().Team = "Marines"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Naknohack/NakHubBF/refs/heads/main/Nakhubv2"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Omg hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "TrongNguyen hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/trongdeptraihucscript/Script-BloxFruit/refs/heads/main/TrongNguyenSkidder.lua"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Xeter v4",
+    Callback = function()
+	  getgenv().Version = "V4"
+getgenv().Team = "Marines"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs/heads/main/Main.lua"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "TuanAnh IOS",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/TuanAnhIOS/refs/heads/main/TuanAnhIOS.lua"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Aimbot TuanAnh",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/AimBotSkibidi/refs/heads/main/TuanAnhIOS-AIMBOT.Lua"))()
+  end
+  })
+  AddButton(Tab3o, {
+     Name = "Auto stap",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/amdzy088/Slap-spam-op/refs/heads/main/Slap%20spam%20op"))()
+  end
+  })
+  AddButton(Tab3o, {
+     Name = "Infiniteyield cmd",
+    Callback = function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.comEdgeIY/infiniteyield/master/source'))()
+  end
+  })
+  AddButton(Tab3o, {
+     Name = "X10 lucky",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/hnc-roblox/HNC_Hub/refs/heads/main/x10Luck.lua"))()
+  end
+  })
+  AddButton(Tab6o, {
+     Name = "Tổng hợp Monster hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/monster-hub-lol/MonsterHub/refs/heads/main/src/allinone.lua"))()
+  end
+  })
+  AddButton(Tab6o, {
+     Name = "TrongNguyen tổng hợp",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/trongnguyenhubbloxfruit/TrongnguyenTongHopPremium/refs/heads/main/TrongnguyenTongHopVipFree.lua"))()
+  end
+  })
+  AddButton(Tab6o, {
+     Name = "TuanAnh tổng hợp",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/TuanAnhIOSNew/refs/heads/main/TuanAnhIOS-TongHop.Lua"))()
+  end
+  })
+  AddButton(Tab7o, {
+     Name = "Kurd hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Ninja10908/S4/refs/heads/main/Kurdhub"))()
+  end
+  })
+  AddButton(Tab7o, {
+     Name = "Chill hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua"))()
+  end
+  })
+  AddButton(Tab8o, {
+     Name = "Redz hub meme sea",
+    Callback = function()
+	  local Settings = {
+    JoinTeam = "Pirates"; -- Pirates / Marines
+    Translator = true;   -- true / false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))(Settings)
   end
   })
