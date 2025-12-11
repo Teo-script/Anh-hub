@@ -361,7 +361,7 @@ Tab3:AddToggle({
     end
 })
 
-Tab6:AddToggle
+Tab6:AddToggle({
     Name = "Tự Động Sea 1",
     Description = "Tự động qua sea 1",
     Default = false,
@@ -370,7 +370,7 @@ Tab6:AddToggle
     end
 })
 
-Tab6:AddToggle
+Tab6:AddToggle({
     Name = "Tự Động Sea 2",
     Description = "Tự động qua sea 2",
     Default = false,
@@ -379,7 +379,7 @@ Tab6:AddToggle
     end
 })
 
-Tab6:AddToggle
+Tab6:AddToggle({
     Name = "Tự Động Sea 3",
     Description = "Tự động qua sea 3",
     Default = false,
