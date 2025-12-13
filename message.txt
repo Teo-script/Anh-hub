@@ -2,8 +2,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "HoangAnh hub",
-         Animation = "Tiktok : trumchoaescript_230"
+         Title = "HoangAnh Hub",
+         Animation = "Mẹ mày thk chó trí"
          },
         Key = {
         KeySystem = false,
@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=83836195973997",
+       Image = "http://www.roblox.com/asset/?id=15298567397",
        Size = {40, 40},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -33,8 +33,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab1o = MakeTab({Name = "Script Farm"})
      local Tab2o = MakeTab({Name = "Script 99 đêm"})
      local Tab3o = MakeTab({Name = "Script linh tinh"})
-     local Tab4o = MakeTab({Name = "Blue lock rivals"})
-     local Tab5o = MakeTab({Name = "Grow a garden"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -135,60 +133,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepza
 	  loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fly-gui-v3-30439"))()
   end
   })
-  AddButton(Tab4o, {
-     Name = "Control ball",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/RedJDarks/MAIN/refs/heads/main/ControlRecreate"))()
-  end
-  })
-  AddButton(Tab5o, {
-     Name = "Zysume hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ZusumeHub/ZusumeHub/refs/heads/main/UpdateZysume"))()
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Foxname hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FoxnameHub.lua"))()
-  end
-  })
-  AddButton(Tab1o, {
-     Name = "Nak no hack",
-    Callback = function()
-	  getgenv().Team = "Marines"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Naknohack/NakHubBF/refs/heads/main/Nakhubv2"))()
-  end
-  })
-  AddButton(Tab1o, {
-     Name = "Omg hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
-  end
-  })
-  AddButton(Tab1o, {
-     Name = "TrongNguyen hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/trongdeptraihucscript/Script-BloxFruit/refs/heads/main/TrongNguyenSkidder.lua"))()
-  end
-  })
-  AddButton(Tab1o, {
-     Name = "Xeter v4",
-    Callback = function()
-	  getgenv().Version = "V4"
-getgenv().Team = "Marines"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs/heads/main/Main.lua"))()
-  end
-  })
-  AddButton(Tab1o, {
-     Name = "TuanAnh IOS",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/TuanAnhIOS/refs/heads/main/TuanAnhIOS.lua"))()
-  end
-  })
-  AddButton(Tab1o, {
-     Name = "Aimbot TuanAnh",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/AimBotSkibidi/refs/heads/main/TuanAnhIOS-AIMBOT.Lua"))()
-  end
-  })
+   
+   AddButton(Tab1o, {
+      Name = "Script tôi
+      Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Teo-script/Anh-hub/refs/heads/main/HoangAnh.lua"))()
