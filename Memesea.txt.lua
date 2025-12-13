@@ -460,7 +460,6 @@ local Tabs = {
   Teleport = Window:MakeTab({"Teleport", "Locate"}),
   Shop = Window:MakeTab({"Shop", "ShoppingCart"}),
   Misc = Window:MakeTab({"Misc", "Settings"}),
-  Misc = Window:MakeTab({"Bí mật", "Moon"})
 }
 
 Window:SelectTab(Tabs.MainFarm)
