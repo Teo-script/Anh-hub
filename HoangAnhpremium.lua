@@ -3757,11 +3757,11 @@ local v496 = v466:MakeTab({"Settings", "settings"})
 v484:AddDiscordInvite({
     Name = "Tham Gia Discord",
     Description = "Link Sever Discord",
-    Logo = "rbxassetid://110657725541747",
-    Invite = "https://discord.gg/kK2vMrUsQy"
+    Logo = "rbxassetid://10803073014",
+    Invite = "https://discord.gg/K2yPUsbt0f"
 })
 v484:AddDiscordInvite({
-    Name = "Tu\225\186\165n Anh (T\195\186nnAngg)",
+    Name = "T\225\186\165n Anh (T\195\186nnAngg)",
     Description = "Facebook C\225\187\167a B\225\187\145 \196\144\195\162y Nh\195\179c",
     Logo = "rbxassetid://110657725541747",
     Invite = "https://www.facebook.com/tuananhiosdz"
@@ -3934,7 +3934,7 @@ spawn(function()
     end
 end)
 v485:AddToggle({
-    Title = "Farm Level New 2650 - 2750",
+    Title = "Farm Level New 2650 - 2800",
     Description = "C\195\160y C\225\186\165p \225\187\158 \196\144\225\186\163o M\225\187\155i",
     Value = false,
     Callback = function(v515)
@@ -4060,7 +4060,7 @@ spawn(function()
 end)
 local _ = v485:AddSection({"Farm Summer Token New"})
 v485:AddToggle({
-    Name = "Auto Farm Summer Token",
+    Name = "Không Hoạt Động Fram Summer Token",
     Description = "T\225\187\177 \196\144\225\187\153ng Di Chuy\225\187\131n \196\144\225\186\191n V\225\187\139 Tr\195\173 Summer Token Theo Sea V\195\160 Farm Qu\195\161i [Electrified]",
     Default = false,
     Callback = function(v524)
@@ -4185,7 +4185,7 @@ v485:AddDropdown({
     end
 })
 v485:AddToggle({
-    Name = "Farm Boss Pain",
+    Name = "Farm Cái Lồn Hết Sk Rồi",
     Description = "Farm Boss \196\144\195\163 Ch\225\187\141n",
     Default = false,
     Callback = function(v539)
@@ -8879,7 +8879,7 @@ end
 v494:AddSlider({
     Title = "Speed Ch\225\186\161y by hoanganhdz",
     Min = 26,
-    Max = 500,
+    Max = 300,
     Default = getgenv().WalkSpeedValue,
     Callback = function(v1137)
         getgenv().WalkSpeedValue = v1137
@@ -8891,8 +8891,8 @@ v494:AddSlider({
 })
 v494:AddSlider({
     Title = "Nh\225\186\163y Cao by hoanganhdz",
-    Min = 50,
-    Max = 300,
+   Min = 50,
+    Max = 500,
     Default = getgenv().JumpValue,
     Callback = function(v1139)
         getgenv().JumpValue = v1139
