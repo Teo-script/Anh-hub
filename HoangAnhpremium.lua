@@ -3665,8 +3665,8 @@ function CheckItemBPCRBPCR(v463)
     end
 end
 local v466 = loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDangNhoEm/UiRedz/refs/heads/main/RedzUiV.txt"))():MakeWindow({
-    Title = "HoangAnh đz Hub",
-    SubTitle = "by real_hoanganh",
+    Title = "HoangAnh Hub",
+    SubTitle = "by real_hoanganhdz",
     SaveFolder = "Redz | redz lib v5.lua"
 })
 local l_ScreenGui_0 = Instance.new("ScreenGui")
@@ -3675,7 +3675,7 @@ l_ScreenGui_0.Parent = game.CoreGui
 local l_ImageButton_0 = Instance.new("ImageButton")
 l_ImageButton_0.Size = UDim2.new(0, 50, 0, 50)
 l_ImageButton_0.Position = UDim2.new(0.15, 0, 0.15, 0)
-l_ImageButton_0.Image = "rbxassetid://75774010417827"
+l_ImageButton_0.Image = "rbxassetid://106007402014282"
 l_ImageButton_0.BackgroundTransparency = 1
 l_ImageButton_0.Parent = l_ScreenGui_0
 local l_UICorner_0 = Instance.new("UICorner")
@@ -8877,7 +8877,7 @@ if l_LocalPlayer_18.Character then
     v1135(l_LocalPlayer_18.Character)
 end
 v494:AddSlider({
-    Title = "Speed Ch\225\186\161y by tuananhiosdz",
+    Title = "Speed Ch\225\186\161y by hoanganhdz",
     Min = 26,
     Max = 300,
     Default = getgenv().WalkSpeedValue,
@@ -8890,7 +8890,7 @@ v494:AddSlider({
     end
 })
 v494:AddSlider({
-    Title = "Nh\225\186\163y Cao by tuananhiosdz",
+    Title = "Nh\225\186\163y Cao by hoanganhdz",
     Min = 50,
     Max = 500,
     Default = getgenv().JumpValue,
