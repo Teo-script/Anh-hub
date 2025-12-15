@@ -8879,7 +8879,7 @@ end
 v494:AddSlider({
     Title = "Speed Ch\225\186\161y by hoanganhdz",
     Min = 26,
-    Max = 5000,
+    Max = 500,
     Default = getgenv().WalkSpeedValue,
     Callback = function(v1137)
         getgenv().WalkSpeedValue = v1137
@@ -8892,7 +8892,7 @@ v494:AddSlider({
 v494:AddSlider({
     Title = "Nh\225\186\163y Cao by hoanganhdz",
     Min = 50,
-    Max = 1000,
+    Max = 300,
     Default = getgenv().JumpValue,
     Callback = function(v1139)
         getgenv().JumpValue = v1139
