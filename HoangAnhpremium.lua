@@ -3761,22 +3761,22 @@ v484:AddDiscordInvite({
     Invite = "https://discord.gg/K2yPUsbt0f"
 })
 v484:AddDiscordInvite({
-    Name = "T\225\186\165n Anh (T\195\186nnAngg)",
-    Description = "Facebook C\225\187\167a B\225\187\145 \196\144\195\162y Nh\195\179c",
-    Logo = "rbxassetid://110657725541747",
-    Invite = "https://www.facebook.com/tuananhiosdz"
+    Name = "Hoàng Anh Nhóm FB",
+    Description = "Facebook Bố đây",
+    Logo = "rbxassetid://29730282047",
+    Invite = "https://www.facebook.com/hoanganhdz"
 })
 v484:AddDiscordInvite({
-    Name = "Tu\225\186\165n Anh IOS",
-    Description = "YouTube C\225\187\167a B\225\187\145 \196\144\195\162y Nh\195\179c",
-    Logo = "rbxassetid://110657725541747",
+    Name = "Ko có",
+    Description = "Đéo Có",
+    Logo = "rbxassetid://397402840365",
     Invite = "https://www.youtube.com/@tuananhios"
 })
 v484:AddDiscordInvite({
-    Name = "Tu\225\186\165n Anh IOS",
-    Description = "TikTok C\225\187\167a B\225\187\145 \196\144\195\162y Nh\195\179c",
-    Logo = "rbxassetid://110657725541747",
-    Invite = "https://www.tiktok.com/@tuananh_ios?_t=ZS-8z2MDp8Jn67&_r=1"
+    Name = "Dell Rảnh Share",
+    Description = "ksisoxwioe6c9e7cjdks9wtsjso9syxjcc",
+    Logo = "rbxassetid://9261083730173",
+    Invite = "https://www.tiktok.com/@hoanganhdz02730072"
 })
 local _ = v485:AddSection({"Select Melee,Sword,Gun,Fruit"})
 _G.SelectWeapon = "Melee"
@@ -4061,7 +4061,7 @@ end)
 local _ = v485:AddSection({"Farm Summer Token New"})
 v485:AddToggle({
     Name = "Không Hoạt Động Fram Summer Token",
-    Description = "T\225\187\177 \196\144\225\187\153ng Di Chuy\225\187\131n \196\144\225\186\191n V\225\187\139 Tr\195\173 Summer Token Theo Sea V\195\160 Farm Qu\195\161i [Electrified]",
+    Description = "Không Hoạt Động",
     Default = false,
     Callback = function(v524)
         _G.FarmSummer = v524
