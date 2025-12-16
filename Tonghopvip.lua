@@ -1,3 +1,101 @@
+-- 1️⃣ KHAI BÁO KEY & LINK GET KEY
+local key = "segaytapthe" -- Key bạn đặt
+local keyLink = "tiktok.com/@trumchoaescript_230" -- Link khi ấn "Get Key"
+
+-- 2️⃣ GIAO DIỆN NHẬP KEY
+local CoreGui = game:GetService("CoreGui")
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local CheckButton = Instance.new("TextButton")
+local GetKeyButton = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+
+ScreenGui.Name = "KeySystem"
+ScreenGui.Parent = CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Frame.Size = UDim2.new(0, 300, 0, 160)
+Frame.Position = UDim2.new(0.5, -150, 0.5, -80)
+UICorner.Parent = Frame
+
+-- 🔴 Nút thoát (dấu X)
+local CloseButton = Instance.new("TextButton")
+CloseButton.Parent = Frame
+CloseButton.Text = "X"
+CloseButton.Size = UDim2.new(0, 25, 0, 25)
+CloseButton.Position = UDim2.new(1, -30, 0, 5) -- góc phải trên khung
+CloseButton.BackgroundColor3 = Color3.fromRGB(255, 60, 60)
+CloseButton.TextColor3 = Color3.fromRGB(255,255,255)
+CloseButton.Font = Enum.Font.SourceSansBold
+CloseButton.TextSize = 18
+
+local closeCorner = Instance.new("UICorner", CloseButton)
+closeCorner.CornerRadius = UDim.new(0, 5)
+
+CloseButton.MouseButton1Click:Connect(function()
+	ScreenGui:Destroy() -- ấn X sẽ tắt giao diện
+end)
+TextBox.Parent = Frame
+TextBox.PlaceholderText = "Nhập key tại đây 🍎"
+TextBox.Text = ""
+TextBox.Size = UDim2.new(0.9, 0, 0, 35)
+TextBox.Position = UDim2.new(0.05, 0, 0.25, 0)
+TextBox.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+UICorner:Clone().Parent = TextBox
+
+CheckButton.Parent = Frame
+CheckButton.Text = "Kiểm tra key ✅"
+CheckButton.Size = UDim2.new(0.4, 0, 0, 30)
+CheckButton.Position = UDim2.new(0.05, 0, 0.65, 0)
+CheckButton.BackgroundColor3 = Color3.fromRGB(80, 170, 80)
+UICorner:Clone().Parent = CheckButton
+
+GetKeyButton.Parent = Frame
+GetKeyButton.Text = "Lấy key 🔑"
+GetKeyButton.Size = UDim2.new(0.4, 0, 0, 30)
+GetKeyButton.Position = UDim2.new(0.55, 0, 0.65, 0)
+GetKeyButton.BackgroundColor3 = Color3.fromRGB(100, 100, 255)
+UICorner:Clone().Parent = GetKeyButton
+
+GetKeyButton.MouseButton1Click:Connect(function()
+	setclipboard(keyLink)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Đã copy link 🔗";
+		Text = "Dán lên trình duyệt để lấy key nhé!";
+		Duration = 4;
+	})
+end)
+
+local keyOk = false
+CheckButton.MouseButton1Click:Connect(function()
+	if TextBox.Text == key then
+		keyOk = true
+		ScreenGui:Destroy()
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Thành công 🎉";
+			Text = "Key đúng! Script sẽ khởi chạy.";
+			Duration = 3;
+		})
+	else
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Sai key ❌";
+			Text = "Hãy ấn nút 'Lấy key' để lấy key mới.";
+			Duration = 3;
+		})
+	end
+end)
+
+-- 3️⃣ CHỜ NHẬP KEY ĐÚNG MỚI CHẠY SCRIPT CHÍNH
+repeat task.wait() until keyOk == true
+
+-- 👉 DÁN CODE CHÍNH CỦA BẠN NGAY DƯỚI DÒNG NÀY 👇
+------------------------------------------------------
+-- ↓ TOÀN BỘ CODE CỦA BẠN (bắt đầu từ dòng: local ScreenGui = Instance.new("ScreenGui"))
+
 -- ✅ MẪU CHUẨN CHO NGƯỜI MỚI | TÉO HUB 🍎
 -- Giữ nguyên giao diện thật, chỉ thêm hướng dẫn 👈 ngay bên cạnh dòng cần sửa
 
@@ -17,7 +115,7 @@ ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.10615778, 0, 0.16217947, 0)
 ImageButton.Size = UDim2.new(0, 40, 0, 40)
 ImageButton.Draggable = true
-ImageButton.Image = "http://www.roblox.com/asset/?id=106007402014282"  -- 👈 đổi ID ảnh nút mở menu tại đây (ảnh roblox)
+ImageButton.Image = "http://www.roblox.com/asset/?id=125151520459740"  -- 👈 đổi ID ảnh nút mở menu tại đây (ảnh roblox)
 
 UICorner.CornerRadius = UDim.new(1, 10)
 UICorner.Parent = ImageButton
@@ -32,8 +130,8 @@ repeat wait() until game:IsLoaded()
 
 -- 🪟 Cửa sổ chính
 local Window = Fluent:CreateWindow({
-	Title = "HoangAnh Hub",         -- 👈 đổi thành tên script của bạn
-	SubTitle = "by LeHoangAnh",              -- 👈 đổi mô tả phụ
+	Title = "HoangAnh tổng hợp =}",         -- 👈 đổi thành tên script của bạn
+	SubTitle = "by real_hoanganh",              -- 👈 đổi mô tả phụ
 	TabWidth = 157,
 	Size = UDim2.fromOffset(450, 300),
 	Acrylic = true,
@@ -43,38 +141,39 @@ local Window = Fluent:CreateWindow({
 
 -- 📑 Các tab (mục chính)
 local Tabs = {
-	Main0 = Window:AddTab({ Title = "Nhóm tôi tạo" }),  -- 👈 đổi tên tab 1
-	Main1 = Window:AddTab({ Title = "grow a garden tuổi" }),  -- 👈 đổi tên tab 2
+	Main0 = Window:AddTab({ Title = "Một số kênh🗿" }),  -- 👈 đổi tên tab 1
+	Main1 = Window:AddTab({ Title = "Grow a garden🥦" }),  -- 👈 đổi tên tab 2
 	Main2 = Window:AddTab({ Title = "bran rót💩" }),     -- 👈 đổi tên tab 3
 	Main3 = Window:AddTab({ Title = "99 đêm🥷" }),        -- 👈 đổi tên tab 4
-	Main4 = Window:AddTab({ Title = "blox fruit🍎" }),    -- 👈 đổi tên tab 5
-	Main5 = Window:AddTab({ Title = "Script Kaitun🐓" }) -- 👈 đổi tên tab 6
+	Main4 = Window:AddTab({ Title = "Blox Fruits🍎" }),    -- 👈 đổi tên tab 5
+	Main5 = Window:AddTab({ Title = "Hunty Zombie👑" }) -- 👈 đổi tên tab 6
+    Main6 = Window:AddTab({ Title = "Fix Lag💎" }) -- 👈 đổi tên tab 7
 }
 
 ------------------------------------------------
 -- TAB 1: Các kênh tiktok
 ------------------------------------------------
 Tabs.Main0:AddButton({
-	Title = "Nhóm zalo",              -- 👈 tên nút
-	Description = "Join đi mấy ní",-- 👈 mô tả nút
+	Title = "tiktok bạn:)",              -- 👈 tên nút
+	Description = "oách xà lách vô cùng",-- 👈 mô tả nút
 	Callback = function()
-		setclipboard("https://zalo.me/g/mwlecd672")  -- 👈 link sao chép
+		setclipboard("https://www.tiktok.com/@jannie3342?_t=ZS-90QsJQ5j0NO&_r=1")  -- 👈 link sao chép
+	end
+})
+
+Tabs.Main0:AddButton({
+	Title = "tik",
+	Description = "làm chơi thui",
+	Callback = function()
+		setclipboard("https://www.tiktok.com/@b.yt03?_t=ZS-90QsHokNlwN&_r=1")     -- 👈 link khác
 	end
 })
 
 Tabs.Main0:AddButton({
 	Title = "tiktok",
-	Description = "Follow tiktok tui",
+	Description = "fl tiktok để biết thêm nhiều script",
 	Callback = function()
-		setclipboard("tiktok.com/@trumchoaescript_230")     -- 👈 link khác
-	end
-})
-
-Tabs.Main0:AddButton({
-	Title = "Discord",
-	Description = "Join discord tui đi",
-	Callback = function()
-		setclipboard("https://discord.gg/3sVNYVM8")
+		setclipboard("https://www.tiktok.com/@b.yt03?_t=ZS-90QsHmSjaiu&_r=1")
 	end
 })
 
@@ -92,47 +191,80 @@ Tabs.Main1:AddButton({
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))() -- 👈 link script tải
 	end
 })
+
 Tabs.Main4:AddButton({
-	Title = "HoangAnh Hub",                             -- 👈 tên nút hiển thị
-	Description = "script này ảnh giống redz",-- 👈 mô tả
+	Title = "Script tôi ui redz",                             -- 👈 tên nút hiển thị
+	Description = "script này đủ các chức năng luôn🥰",-- 👈 mô tả
 	Callback = function()
 		local Settings = {
 			JoinTeam = "Pirates";   -- 👈 team mặc định: Pirates hoặc Marines
 			Translator = true;      -- 👈 bật dịch sang tiếng Việt nếu có
 		}
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Teo-script/Anh-hub/refs/heads/main/HoangAnh.lua"))() -- 👈 link script tải
+	    loadstring(gmae:HttpGet("https://raw.githubusercontent.com/Teo-script/Anh-hub/refs/heads/main/HoangAnhpremium.lua", true))() -- 👈 link script tải
 	end
 })
-Tabs.Main5:AddButton({
-	Title = "Kaitun boss",                             -- 👈 tên nút hiển thị
-	Description = "script tự động đổi sv kaitun boss",-- 👈 mô tả
+
+Tabs.Main3:AddButton({
+	Title = "Foxname Hub",                             -- 👈 tên nút hiển thị
+	Description = "script này bring đồ hơi xịn đó👑",-- 👈 mô tả
 	Callback = function()
 		local Settings = {
 			JoinTeam = "Pirates";   -- 👈 team mặc định: Pirates hoặc Marines
 			Translator = true;      -- 👈 bật dịch sang tiếng Việt nếu có
 		}
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/WhiteX1208/Scripts/refs/heads/main/HopScript.luau"))() -- 👈 link script tải
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FoxnameHub.lua"))() -- 👈 link script tải
 	end
 })
-Tabs.Main2:AddButton({
-	Title = "Kurd hub",                             -- 👈 tên nút hiển thị
-	Description = "script này cướp brairot ngon-- 👈 mô tả
+
+Tabs.Main3:AddButton({
+	Title = "Vapevoid Hub",                             -- 👈 tên nút hiển thị
+	Description = "script cũng hơi xịn no key",-- 👈 mô tả
 	Callback = function()
 		local Settings = {
 			JoinTeam = "Pirates";   -- 👈 team mặc định: Pirates hoặc Marines
 			Translator = true;      -- 👈 bật dịch sang tiếng Việt nếu có
 		}
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Ninja10908/S4/refs/heads/main/Kurdhub"))() -- 👈 link script tải
-    end
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua", true))() -- 👈 link script tải
+	end
 })
-Tabs.Main2:AddButton({
-	Title = "Chill hub",                             -- 👈 tên nút hiển thị
-	Description = "script chill hub",-- 👈 mô tả
+
+Tabs.Main1:AddButton({
+	Title = "TrongNguyen hub",                             -- 👈 tên nút hiển thị
+	Description = "script này của trongnguyen😁",-- 👈 mô tả
 	Callback = function()
 		local Settings = {
 			JoinTeam = "Pirates";   -- 👈 team mặc định: Pirates hoặc Marines
 			Translator = true;      -- 👈 bật dịch sang tiếng Việt nếu có
 		}
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua"))() -- 👈 link script tải
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/trongnguyenhubbloxfruit/Trongnguyen99Dem/refs/heads/main/TrongNguyenNoKey.lua"))() -- 👈 link script tải
+	end
+})
+
+Tabs.Main4:AddButton({
+	Title = "Banana free",                             -- 👈 tên nút hiển thị
+	Description = "script này của tuananhios nha😎",-- 👈 mô tả
+	Callback = function()
+		local Settings = {
+			JoinTeam = "Pirates";   -- 👈 team mặc định: Pirates hoặc Marines
+			Translator = true;      -- 👈 bật dịch sang tiếng Việt nếu có
+		}
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/Banana-Hub/refs/heads/main/Banana-Free.lua"))() -- 👈 link script tải
+	end
+})
+
+Tabs.Main4:AddButton({
+	Title = "Redz hub",                             -- 👈 tên nút hiển thị
+	Description = "script này bật đc nha mấy ki😀",-- 👈 mô tả
+	Callback = function()
+		local Settings = {
+			JoinTeam = "Pirates";   -- 👈 team mặc định: Pirates hoặc Marines
+			Translator = true;      -- 👈 bật dịch sang tiếng Việt nếu có
+		}
+		local Settings = {
+    JoinTeam = "Pirates"; -- Pirates / Marines
+    Translator = true;   -- true / false
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/20f318386e3fbf069ee3fa797cfc9f34.lua"))()(Settings) -- 👈 link script tải
 	end
 })
