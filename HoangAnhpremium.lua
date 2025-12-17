@@ -3675,7 +3675,7 @@ l_ScreenGui_0.Parent = game.CoreGui
 local l_ImageButton_0 = Instance.new("ImageButton")
 l_ImageButton_0.Size = UDim2.new(0, 50, 0, 50)
 l_ImageButton_0.Position = UDim2.new(0.15, 0, 0.15, 0)
-l_ImageButton_0.Image = "rbxassetid://106007402014282"
+l_ImageButton_0.Image = "rbxassetid://18471047103"
 l_ImageButton_0.BackgroundTransparency = 1
 l_ImageButton_0.Parent = l_ScreenGui_0
 local l_UICorner_0 = Instance.new("UICorner")
@@ -3757,26 +3757,26 @@ local v496 = v466:MakeTab({"Settings", "settings"})
 v484:AddDiscordInvite({
     Name = "Tham Gia Discord",
     Description = "Link Sever Discord",
-    Logo = "rbxassetid://10803073014",
-    Invite = "https://discord.gg/K2yPUsbt0f"
+    Logo = "rbxassetid://201838591047",
+    Invite = "https://discord.gg/kK2vMrUsQy"
 })
 v484:AddDiscordInvite({
-    Name = "Hoàng Anh Nhóm FB",
-    Description = "Facebook Bố đây",
-    Logo = "rbxassetid://29730282047",
-    Invite = "https://www.facebook.com/hoanganhdz"
+    Name = "Tu\225\186\165n Anh (T\195\186nnAngg)",
+    Description = "Facebook C\225\187\167a B\225\187\145 \196\144\195\162y Nh\195\179c",
+    Logo = "rbxassetid://2740169394319",
+    Invite = "https://www.facebook.com/tsuskig2x90s"
 })
 v484:AddDiscordInvite({
-    Name = "Ko có",
-    Description = "Đéo Có",
-    Logo = "rbxassetid://397402840365",
-    Invite = "https://www.youtube.com/@tuananhios"
+    Name = "Tu\225\186\165n Anh IOS",
+    Description = "YouTube C\225\187\167a B\225\187\145 \196\144\195\162y Nh\195\179c",
+    Logo = "rbxassetid://110657725541747",
+    Invite = "https://www.youtube.com/@ta0ehdo72jd"
 })
 v484:AddDiscordInvite({
-    Name = "Dell Rảnh Share",
-    Description = "ksisoxwioe6c9e7cjdks9wtsjso9syxjcc",
-    Logo = "rbxassetid://9261083730173",
-    Invite = "https://www.tiktok.com/@hoanganhdz02730072"
+    Name = "Tu\225\186\165n Anh IOS",
+    Description = "TikTok C\225\187\167a B\225\187\145 \196\144\195\162y Nh\195\179c",
+    Logo = "rbxassetid://110657725541747",
+    Invite = "https://www.tiktok.com/@tuananh_ios?_t=ZS-8z2MDp8Jn67&_r=1"
 })
 local _ = v485:AddSection({"Select Melee,Sword,Gun,Fruit"})
 _G.SelectWeapon = "Melee"
@@ -3816,7 +3816,7 @@ task.spawn(function()
     end
 end)
 local _ = v485:AddDropdown({
-    Name = "Ch\225\187\141n C\195\180ng C\225\187\165",
+    Name = "Chọn Vật Phẩm",
     Description = "Ch\225\187\141n c\195\180ng c\225\187\165 b\225\186\161n mu\225\187\145n s\225\187\173 d\225\187\165ng",
     Options = {"Melee", "Sword", "Gun", "Blox Fruit"},
     Default = "Melee",
@@ -3827,7 +3827,7 @@ local _ = v485:AddDropdown({
 })
 local _ = v485:AddSection({"Main Farm"})
 v485:AddToggle({
-    Name = "Auto Farm Level 1-2650",
+    Name = "Tự Động Level 1 - 2650",
     Description = "T\225\187\177 \196\145\225\187\153ng farm c\225\186\165p",
     Default = false,
     Callback = function(v509)
@@ -3934,7 +3934,7 @@ spawn(function()
     end
 end)
 v485:AddToggle({
-    Title = "Farm Level New 2650 - 2800",
+    Title = "Tự Động Fram Mới 2650 - 2750",
     Description = "C\195\160y C\225\186\165p \225\187\158 \196\144\225\186\163o M\225\187\155i",
     Value = false,
     Callback = function(v515)
@@ -4023,7 +4023,7 @@ spawn(function()
     end
 end)
 v485:AddToggle({
-    Name = "Auto Kill Near | Mob Aura",
+    Name = "Tự Động Đánh Quái Gần | Mob Aura",
     Description = "\196\144\195\161nh Qu\195\161i G\225\186\167n",
     Default = false,
     Callback = function(v520)
@@ -4060,8 +4060,8 @@ spawn(function()
 end)
 local _ = v485:AddSection({"Farm Summer Token New"})
 v485:AddToggle({
-    Name = "Không Hoạt Động Fram Summer Token",
-    Description = "Không Hoạt Động",
+    Name = "Không Hoạt Động",
+    Description = "Dell hoạt động đâu mấy cu",
     Default = false,
     Callback = function(v524)
         _G.FarmSummer = v524
@@ -4132,52 +4132,52 @@ local _ = v485:AddSection({"Event Boss Pain New"})
 local v537 = {}
 if World1 then
     v537 = {
-        "The Gorilla King",
-        "Bobby",
-        "Yeti",
-        "Mob Leader",
-        "Vice Admiral",
-        "Warden",
-        "Chief Warden",
-        "Swan",
-        "Magma Admiral",
-        "Fishman Lord",
-        "Wysper",
-        "Thunder God",
-        "Cyborg",
-        "Saber Expert"
+        "Cặc 1",
+        "Cặc 2",
+        "Cặc 3",
+        "Cặc 4",
+        "Cặc 5",
+        "Cặc 6",
+        "Cặc 7",
+        "Cặc 8",
+        "Cặc 9",
+        "Cặc 10",
+        "Cặc 11",
+        "Cặc 12",
+        "Cặc 13",
+        "Cặc 14"
     }
 elseif World2 then
     v537 = {
-        "Diamond",
-        "Jeremy",
-        "Fajita",
-        "Don Swan",
-        "Smoke Admiral",
-        "Cursed Captain",
-        "Darkbeard",
-        "Order",
-        "Awakened Ice Admiral",
-        "Tide Keeper"
+        "Cặc 15",
+        "Cặc 16",
+        "Cặc 17",
+        "Cặc 18",
+        "Cặc 19",
+        "Cặc 20",
+        "Cặc 21",
+        "Cặc 22",
+        "Cặc 23",
+        "Cặc 24"
     }
 elseif World3 then
     v537 = {
         "",
-        "Stone",
-        "Island Empress",
-        "Hydra Leader",
-        "Kilo Admiral",
-        "Captain Elephant",
-        "Beautiful Pirate",
-        "rip_indra True Form",
-        "Longma",
-        "Soul Reaper",
-        "Cake Queen"
+        "Cặc 25",
+        "Cặc 26",
+        "Cặc 27",
+        "Cặc 28",
+        "Cặc 29",
+        "Cặc 30",
+        "Cặc 31",
+        "Cặc 32",
+        "Cặc 33",
+        "Cặc 34"
     }
 end
 v485:AddDropdown({
-    Name = "Auto Select Boss",
-    Description = "Ch\225\187\141n Boss C\225\186\167n Farm",
+    Name = "Chọn con cặc",
+    Description = "Đụ mẹ hết sk r kêu t làm j",
     Options = v537,
     Default = v537[1],
     Callback = function(v538)
@@ -4185,8 +4185,8 @@ v485:AddDropdown({
     end
 })
 v485:AddToggle({
-    Name = "Farm Cái Lồn Hết Sk Rồi",
-    Description = "Farm Boss \196\144\195\163 Ch\225\187\141n",
+    Name = "Farm con cặc",
+    Description = "Fram cặc haha",
     Default = false,
     Callback = function(v539)
         _G.BossPain = v539
@@ -8891,7 +8891,7 @@ v494:AddSlider({
 })
 v494:AddSlider({
     Title = "Nh\225\186\163y Cao by hoanganhdz",
-   Min = 50,
+    Min = 50,
     Max = 500,
     Default = getgenv().JumpValue,
     Callback = function(v1139)
