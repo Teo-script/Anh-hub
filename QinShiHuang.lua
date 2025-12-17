@@ -8877,7 +8877,7 @@ if l_LocalPlayer_18.Character then
     v1135(l_LocalPlayer_18.Character)
 end
 v494:AddSlider({
-    Title = "Speed Ch\225\186\161y by tuananhiosdz",
+    Title = "Speed Ch\225\186\161y by qinshihuang",
     Min = 26,
     Max = 300,
     Default = getgenv().WalkSpeedValue,
@@ -8890,7 +8890,7 @@ v494:AddSlider({
     end
 })
 v494:AddSlider({
-    Title = "Nh\225\186\163y Cao by tuananhiosdz",
+    Title = "Nh\225\186\163y Cao by qinshihuang",
     Min = 50,
     Max = 500,
     Default = getgenv().JumpValue,
