@@ -3825,7 +3825,7 @@ local _ = v485:AddDropdown({
         _G.SelectWeapon = v506
     end
 })
-local _ = v485:AddSection({"Main Farm"})
+local _ = v485:AddSection({"Main Fram"})
 v485:AddToggle({
     Name = "Tự Động Level 1 - 2650",
     Description = "T\225\187\177 \196\145\225\187\153ng farm c\225\186\165p",
@@ -4221,10 +4221,10 @@ task.spawn(function()
         end
     end
 end)
-local _ = v485:AddSection({"AutoRaidPirate"})
+local _ = v485:AddSection({"Auto Attack Pirate"})
 v485:AddToggle({
-    Name = "Farm Pirate",
-    Description = "\196\144\195\161nh H\225\186\163i T\225\186\183c Tr\195\170n Ph\195\161o \196\144\195\160i Bi\225\187\131n",
+    Name = "Tự Động Đánh Hải Tặc",
+    Description = "Tự động đánh hải tặc ở pháo đài",
     Default = false,
     Callback = function(v543)
         _G.AutoRaidPirate = v543
@@ -4262,7 +4262,7 @@ spawn(function()
         end
     end
 end)
-local _ = v485:AddSection({"TyrantoftheSkies"})
+local _ = v485:AddSection({"Tyrantofthe Skies"})
 local v548 = v485:AddParagraph({Title = "Check Eyes Status", Content = "Loading..."})
 task.spawn(function()
     while task.wait(1) do
@@ -4284,8 +4284,8 @@ task.spawn(function()
     end
 end)
 v485:AddToggle({
-    Name = "Auto Farm Tyrant",
-    Description = "Farm Qu\195\161i V\195\160 \196\144\195\161nh Boss Chim",
+    Name = "Tự Động Boss Tyrant",
+    Description = "Tự động đánh boss chim",
     Default = false,
     Callback = function(v553)
         _G.FarmDaiBan = v553
@@ -4386,8 +4386,8 @@ task.spawn(function()
     end
 end)
 v485:AddToggle({
-    Name = "Summon Tyrant Of The Skies",
-    Description = "T\225\187\177 \196\144\225\187\153ng Ph\195\161 B\195\172nh \196\144\225\187\131 Tri\225\187\135u H\225\187\147i Boss",
+    Name = "Tự Động Hồi Sinh Tyrant",
+    Description = "Tự động hồi sinh boss chim",
     Default = false,
     Callback = function(v564)
         _G.Farm8Binhs = v564
@@ -4513,7 +4513,7 @@ task.spawn(function()
         end
     end
 end)
-local _ = v485:AddSection({"X\198\176\198\161ng"})
+local _ = v485:AddSection({"Xương"})
 local v589 = v485:AddParagraph({Title = "Check Bone", Content = "Loading..."})
 task.spawn(function()
     while task.wait(1) do
@@ -4524,8 +4524,8 @@ task.spawn(function()
     end
 end)
 v485:AddToggle({
-    Name = "Fram Bone",
-    Description = "Fram S\198\176\198\161ng",
+    Name = "Tự Động Bones",
+    Description = "Tự động đánh quái fram xương",
     Default = false,
     Callback = function(v591)
         _G.FarmBone = v591
@@ -4597,8 +4597,8 @@ spawn(function()
     end
 end)
 v485:AddToggle({
-    Name = "Seperator Hallow Scythe",
-    Description = "Tri\225\187\135u h\225\187\147i v\195\160 ti\195\170u di\225\187\135t Soul Reaper",
+    Name = "Tự Động Hồi Sinh Soul Reaper",
+    Description = "Tự động spawn Soul Reaper",
     Default = false,
     Callback = function(v599)
         _G.Hallow = v599
@@ -4640,8 +4640,8 @@ spawn(function()
     end
 end)
 v485:AddToggle({
-    Name = "Trade Bone",
-    Description = "T\225\187\177 \196\145\225\187\153ng \196\145\225\187\149i x\198\176\198\161ng l\225\186\165y ph\225\186\167n th\198\176\225\187\159ng",
+    Name = "Trao Đổi Bones",
+    Description = "Tự động trao đổi xương",
     Default = false,
     Callback = function(v602)
         _G.Rdbone = v602
@@ -4716,8 +4716,8 @@ task.spawn(function()
     end
 end)
 v485:AddToggle({
-    Name = "Farm Katakuri",
-    Description = "Fram Qu\195\161i V\195\160 \196\144\195\161nh Ho\195\160ng T\225\187\173 B\225\187\153t V1",
+    Name = "Tự Động Katakuri V1",
+    Description = "Tự động fram quái hồi sinh boss bột v1",
     Default = false,
     Callback = function(v608)
         _G.FarmCake = v608
@@ -4820,8 +4820,8 @@ task.spawn(function()
     end
 end)
 v485:AddToggle({
-    Name = "Farm Katakuri V2",
-    Description = "Fram Qu\195\161i V\195\160 \196\144\195\161nh Ho\195\160ng T\225\187\173 B\225\187\153t V2",
+    Name = "Tự Động Katakuri V2",
+    Description = "Tự động đánh quái spawn Katakuri v2",
     Default = false,
     Callback = function(v619)
         _G.Fullykatakuri = v619
@@ -4933,8 +4933,8 @@ spawn(function()
 end)
 local _ = v485:AddSection({"Auto Farm Chest And Berry"})
 v485:AddToggle({
-    Name = "Auto Collect Berry",
-    Description = "T\225\187\177 \196\145\225\187\153ng Nh\225\186\183t Berry",
+    Name = "Tự Động Berry",
+    Description = "Tự động nhặt berry",
     Default = false,
     Callback = function(v628)
         _G.CollectBerry = v628
@@ -4981,8 +4981,8 @@ spawn(function()
     end
 end)
 v485:AddToggle({
-    Name = "Auto Farm Chest [ Tween ]",
-    Description = "T\225\187\177 \196\145\225\187\153ng Nh\225\186\183t r\198\176\198\161ng b\225\186\177ng tween",
+    Name = "Tự Động Rương [ Tween ]",
+    Description = "Tự động nhặt rương tween",
     Default = false,
     Callback = function(v644)
         _G.FarmChest = v644
@@ -5014,10 +5014,10 @@ spawn(function()
         end
     end
 end)
-local _ = v485:AddSection({"Boss Fram"})
+local _ = v485:AddSection({"Fram Boss"})
 v485:AddButton({
-    Name = "C\225\186\173p Nh\225\186\173t Boss",
-    Description = "L\195\160m m\225\187\155i danh s\195\161ch boss",
+    Name = "Kiểm Tra Boss",
+    Description = "Tự động kiểm ra boss có sẵn",
     Callback = function()
         -- empty block
     end
@@ -5083,8 +5083,8 @@ else
     }
 end
 v485:AddDropdown({
-    Name = "Auto Select Boss",
-    Description = "Ch\225\187\141n Boss C\225\186\167n Farm",
+    Name = "Chọn Một Con Boss",
+    Description = "Chọn boss để fram",
     Options = v658,
     Default = v658[1],
     Callback = function(v659)
@@ -5092,8 +5092,8 @@ v485:AddDropdown({
     end
 })
 v485:AddToggle({
-    Name = "Farm Boss",
-    Description = "Farm Boss \196\144\195\163 Ch\225\187\141n",
+    Name = "Tự Động Boss",
+    Description = "Tự động đánh boss",
     Default = false,
     Callback = function(v660)
         _G.AutoBoss = v660
@@ -5216,8 +5216,8 @@ function getConfigMaterial(v665)
     end
 end
 v485:AddDropdown({
-    Name = "Select Material",
-    Description = "Ch\225\187\141n v\225\186\173t ph\225\186\169m c\225\186\167n farm",
+    Name = "Chọn Vật Liệu",
+    Description = "Chọn vật liệu để fram",
     Options = v664,
     Default = v664[1],
     Callback = function(v666)
@@ -5225,8 +5225,8 @@ v485:AddDropdown({
     end
 })
 v485:AddToggle({
-    Name = "Start Farm",
-    Description = "T\225\187\177 \196\145\225\187\153ng farm material \196\145\195\163 ch\225\187\141n",
+    Name = "Bắt Đầu Fram",
+    Description = "Tự động cày vật liệu",
     Default = false,
     Callback = function(v667)
         _G.AutoFarmMaterial = v667
@@ -5264,10 +5264,10 @@ task.spawn(function()
         end
     end
 end)
-local _ = v486:AddSection({"Auto Fishing |  T\225\187\177 \196\144\225\187\153ng C\195\162u C\195\161"})
+local _ = v486:AddSection({"Auto Fishing"})
 v486:AddToggle({
-    Title = "Auto Fishing",
-    Description = "T\225\187\177 \196\144\225\187\153ng C\195\162u C\195\161 Xo\195\161 Hi\225\187\135u \225\187\168ng Khi C\195\162u",
+    Title = "Tự Động Cá",
+    Description = "Tự động câu cá",
     Default = false,
     Callback = function(v673)
         _G.AutoFishing = v673
@@ -5314,8 +5314,8 @@ task.spawn(function()
     end
 end)
 v486:AddDropdown({
-    Name = "Select Fishing Lure",
-    Description = "T\225\187\177 \196\144\225\187\153ng Ch\225\187\141n M\225\187\147i Khi C\195\162u C\195\161",
+    Name = "Chọn Mồi Câu",
+    Description = "Chọn mồi câu để câu",
     Options = {"Basic Bait", "Kelp Bait", "Good Bait", "Abyssal Bait", "Frozen Bait", "Epic Bait", "Carnivore Bait"},
     Default = "Basic Bait",
     Callback = function(v690)
@@ -5324,8 +5324,8 @@ v486:AddDropdown({
     end
 })
 v486:AddDropdown({
-    Name = "Select Fishing Rod",
-    Description = "T\225\187\177 \196\144\225\187\153ng Ch\225\187\141n C\225\186\167n C\195\162u Khi C\195\162u C\195\161",
+    Name = "Chọn Cần Câu",
+    Description = "Chọn cần câu bạn có sẵn",
     Options = {"Fishing Rod", "Gold Rod", "Shark Rod", "Shell Rod", "Treasure Rod"},
     Default = "Fishing Rod",
     Callback = function(v691)
@@ -5335,8 +5335,8 @@ v486:AddDropdown({
 if World1 then
     local _ = v487:AddSection({"Quest Sea 1"})
     v487:AddToggle({
-        Name = "AutoSecondSea",
-        Description = "T\225\187\177 \196\145\225\187\153ng Auto Quest Sea 2",
+        Name = "Tự Động Sea 2",
+        Description = "Tự động qua sea 2",
         Default = false,
         Callback = function(v693)
             _G.AutoSecondSea = v693
@@ -5393,8 +5393,8 @@ if World1 then
     end)
     local _ = v487:AddSection({"Boss Greybeard"})
     v487:AddToggle({
-        Name = "Kill Greybeard",
-        Description = "T\225\187\177 \196\145\225\187\153ng \196\144\195\161nh Greybeard",
+        Name = "Tự Động Greybeard",
+        Description = "Tự động đánh râu đen",
         Default = false,
         Callback = function(v698)
             _G.Greybeard = v698
@@ -5436,10 +5436,10 @@ if World1 then
             end
         end
     end)
-    local _ = v487:AddSection({"Quest Sword"})
+    local _ = v487:AddSection({"Quest Saber"})
     v487:AddToggle({
-        Name = "Auto Get Saber",
-        Description = "T\225\187\177 \196\145\225\187\153ng L\225\186\165y Ki\225\186\191m Saber",
+        Name = "Tự Động Saber",
+        Description = "Tự động lấy kiếm saber",
         Default = false,
         Callback = function(v702)
             _G.AutoSaber = v702
