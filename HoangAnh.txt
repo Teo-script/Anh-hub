@@ -49,7 +49,7 @@ local Tabs = {
 	Main3 = Window:AddTab({ Title = "99 đêm🥷" }),        -- 👈 đổi tên tab 4
 	Main4 = Window:AddTab({ Title = "blox fruit🍎" }),    -- 👈 đổi tên tab 5
 	Main5 = Window:AddTab({ Title = "mm2" }) -- 👈 đổi tên tab 6
-    Main6 = Window:AddTab({ Title = "Turbo fix lag" }) -- 👈 đổi tên tab 7
+    Main6 = Window:AddTab({ Title = "linh tinh" }) -- 👈 đổi tên tab 7
 }
 
 ------------------------------------------------
