@@ -169,17 +169,6 @@ Tabs.Main4:AddButton({
 		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/20f318386e3fbf069ee3fa797cfc9f34.lua"))()(Settings) -- 👈 link script tải
 	end
 })
-Tabs.Main1:AddButton({
-	Title = "speed hub",                             -- 👈 tên nút hiển thị
-	Description = "script này ngon cả",-- 👈 mô tả
-	Callback = function()
-		local Settings = {
-			JoinTeam = "Pirates";   -- 👈 team mặc định: Pirates hoặc Marines
-			Translator = true;      -- 👈 bật dịch sang tiếng Việt nếu có
-		}
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))() -- 👈 link script tải
-	end
-})
 Tabs.Main3:AddButton({
 	Title = "VapeVoid",                             -- 👈 tên nút hiển thị
 	Description = "script này ok",-- 👈 mô tả
