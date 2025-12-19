@@ -1,0 +1,91 @@
+-- Load Redz UI Library
+local Library = loadstring(game:HttpGet(
+    "https://raw.githubusercontent.com/REDzHUB/RedzUI/main/RedzUI.lua"
+))()
+
+-- Tạo Window
+local Window = Library:MakeWindow({
+    Title = "HoangAnh Hub",
+    SubTitle = "by realhoanganh",
+    SaveFolder = "RedzUIConfig"
+})
+
+-- Tạo Tab
+local MainTab = Window:MakeTab({
+    Name = "Main",
+    Icon = "rbxassetid://4483345998"
+})
+
+local FarmTab = Window:MakeTab({
+    Name = "Farm",
+    Icon = "rbxassetid://4483345998"
+})
+
+local SettingTab = Window:MakeTab({
+    Name = "Settings",
+    Icon = "rbxassetid://4483345998"
+})
+
+-- MAIN TAB
+MainTab:AddButton({
+    Name = "Button Test",
+    Callback = function()
+        print("Bạn đã bấm Button")
+    end
+})
+
+MainTab:AddToggle({
+    Name = "Toggle Test",
+    Default = false,
+    Callback = function(Value)
+        print("Toggle:", Value)
+    end
+})
+
+MainTab:AddSlider({
+    Name = "Speed",
+    Min = 1,
+    Max = 100,
+    Default = 16,
+    Increment = 1,
+    Callback = function(Value)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+    end
+})
+
+-- FARM TAB
+FarmTab:AddToggle({
+    Name = "Auto Farm",
+    Default = false,
+    Callback = function(Value)
+        _G.AutoFarm = Value
+        while _G.AutoFarm do
+            task.wait()
+            print("Đang Auto Farm...")
+        end
+    end
+})
+
+FarmTab:AddButton({
+    Name = "Teleport",
+    Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
+            CFrame.new(0, 10, 0)
+    end
+})
+
+-- SETTINGS TAB
+SettingTab:AddButton({
+    Name = "Destroy UI",
+    Callback = function()
+        Library:Destroy()
+    end
+})
+
+SettingTab:AddKeybind({
+    Name = "Toggle UI",
+    Default = Enum.KeyCode.RightControl,
+    Callback = function()
+        Library:ToggleUI()
+    end
+})
