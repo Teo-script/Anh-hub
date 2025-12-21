@@ -1,668 +1,301 @@
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+--[[ Script của HNC Roblox
+Tik Tok: @hnc_roblox]]--
 
-      
-       local Window = MakeWindow({
-         Hub = {
-         Title = "HoangAnh đz",
-         Animation = "Premium"
-         },
-        Key = {
-        KeySystem = true,
-        Title = "Blox Fruit",
-        Description = "Blox Fruit TongHop",
-        KeyLink = "https://discord.gg/AjDHA3mz",
-        Keys = {"HoangAnh-J97-123"},
-        Notifi = {
-        Notifications = true,
-        CorrectKey = "Wrong Key Successfull ✅",
-       Incorrectkey = "Working Key No Key ❌",
-       CopyKeyLink = "https://discord.gg/AjDHA3mz"
-      }
-    }
-  })
+--[[
+# 🔥 CHÀO MỪNG ĐẾN VỚI CỘNG ĐỒNG HNC-HUB 🔥
 
-       MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=120213707198275",
-       Size = {60, 60},
-       Color = Color3.fromRGB(10, 10, 10),
-       Corner = true,
-       Stroke = false,
-       StrokeColor = Color3.fromRGB(255, 0, 0)
-      })
-      
------- Tab
-     local Tab2o = MakeTab({Name = "Script Grow A Garden"})
-     local Tab1o = MakeTab({Name = "Script Blox Fruits"})
-     local Tab3o = MakeTab({Name = "Support all game"})
-     local Tab4o = MakeTab({Name = "Script Premium"})
-     local Tab5o = MakeTab({Name = "Kaitun Blox Fruits"})
-     local Tab6o = MakeTab({Name = "Kaitun Grow A Garden"})
-     local Tab7o = MakeTab({Name = "Auto Bouty BloxFruits"})
-     local Tab8o = MakeTab({Name = "Auto V4"})
-     local Tab9o = MakeTab({Name = "Tự Động Hop"})
-     local Tab10o = MakeTab({Name = "99 ngày Trong rừng"})
-     local Tab11o = MakeTab({Name = "Script Dead rail"})
-     local Tab12o = MakeTab({Name = "sleat a brainrot"})
-     local Tab13o = MakeTab({Name = "Auto Lụm Trái"})
-     local Tab14o = MakeTab({Name = "Script Mua Premium"})
-     
-------- BUTTON
-    
-    AddButton(Tab9o, {
-     Name = "Full Mon",
-    Callback = function()
-	  game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, "c7cf4abb-6682-4f33-86e2-03af70ab3153", game.Players.LocalPlayer)
-  end
-  })
-  AddButton(Tab9o, {
-     Name = "Hop Swords",
-    Callback = function() 
-      game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, "0940dc34-b96d-411a-926b-79dd00b45eab", game.Players.LocalPlayer)
-  end
-  })
-  AddButton(Tab9o, {
-     Name = "Haki color",
-    Callback = function() 
-        game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, "4bd0d732-1678-4957-a6a1-2fa220deebdc", game.Players.LocalPlayer)
-  end
-  })
-  AddButton(Tab9o, {
-     Name = "Hop prehistoric island ",
-    Callback = function() 
-       game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, "e772b907-f854-4bc4-8826-f23dfb63fc68", game.Players.LocalPlayer)
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Redz Hub",
-    Callback = function() 
-       local Settings = {
-  JoinTeam = "Pirates"; -- Pirates/Marines
-  Translator = true; -- true/false
-}
+> **🎉 Nơi hội tụ những tâm hồn đam mê Roblox – đặc biệt là Blox Fruits!**
+> **💫 Cùng nhau chia sẻ, học hỏi, và tận hưởng niềm vui Script – Hắc – Sáng Tạo – Không Drama!**
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))(Settings)
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Min Gaming",
-    Callback = function() 
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinBE"))()
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Xeter Hub v1",
-    Callback = function()
-      getgenv().Version = "V1"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))()
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Xeter Hub v2",
-    Callback = function()
-      getgenv().Version = "V2"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))()
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Xeter Hub V3",
-    Callback = function()
-      getgenv().Version = "V3"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))()
-  end
-  })
-  AddButton(Tab3o, {
-     Name = "Shade ",
-    Callback = function()
-       loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Simple-Shader-37434"))()
-  end
-  })
-  AddButton(Tab9o, {
-     Name = "Hop Rip Indra",
-    Callback = function() 
-       game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, "4946b5f2-4a2c-44e8-947e-f336caebde29", game.Players.LocalPlayer)
-  end
-  })
-  AddButton(Tab9o, {
-     Name = "Hop Dough King",
-    Callback = function() 
-       game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, "d2f3855d-9b92-4515-8740-c0eb7ffcd781", game.Players.LocalPlayer)
-  end
-  })
-  AddButton(Tab9o, {
-     Name = "Hop Tyrant",
-    Callback = function() 
-       game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, "f12d49ac-05c5-49b4-865f-afc7b227ef60", game.Players.LocalPlayer)
-  end
-  })
-  AddButton(Tab9o, {
-     Name = "Mirage island",
-    Callback = function() 
-       game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, "f12d49ac-05c5-49b4-865f-afc7b227ef60", game.Players.LocalPlayer)
-  end
-  })
-  AddButton(Tab9o, {
-     Name = "Hop Dark Beard",
-    Callback = function() 
-       game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, "b19eab3f-5da2-41f9-8d57-8822163b7219", game.Players.LocalPlayer)
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Maru Hub",
-    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
-  end
-  })
-  AddButton(Tab4o, {
-     Name = "Banana Hub Premium(24h Reset key 1 lần)",
-    Callback = function() 
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/Ditmemaybe/An/refs/heads/main/andepzai%20hub"))()
-  end
-  })
-  AddButton(Tab4o, {
-     Name = "Maru Hub Premium(24h Reset key 1 lần)",
-    Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/Ditmemaybe/An/refs/heads/main/andepzai%20hub"))()
-  end
-  })
-  AddButton(Tab4o, {
-     Name = "W-azure Hub (24h Reset key 1 lần)",
-    Callback = function() game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, "c7cf4abb-6682-4f33-86e2-03af70ab3153", game.Players.LocalPlayer)
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Banana Free",
-    Callback = function() 
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
-  end
-  })
-  AddButton(Tab1o, {
-     Name = "Speeds hub",
-    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
-  end
-  })
-  AddButton(Tab1o, {
-     Name = "Thunder Hub",
-    Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinThRz"))()    
-  end
-  })
-  AddButton(Tab1o, {
-     Name = "Zinner Hub Blox Fruit",
-    Callback = function() 
-      getgenv().Team = "Pirates"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/HoangNguyenk8/Roblox/refs/heads/main/BF-Main.luau"))()
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Huy Sad",
-    Callback = function() 
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/HuySadd/Huy-Sad/refs/heads/main/HuySad001.lua"))()
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Không Bt tên",
-    Callback = function()
-       loadstring(game:HttpGet('https://github.com/96soul/-/blob/main/load.gg?raw=true', true))()
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Master Hub",
-    Callback = function() 
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/obfmoonsec/Masterhub/refs/heads/main/obf"))()
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Ak Gaming",
-    Callback = function() 
-       getgenv().Team = "Pirates"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/AkGamingEz/refs/heads/main/AkGaming-V3"))()
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Bắp Red",
-    Callback = function() 
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/BapRed/main/BapRedHub"))()
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Trẩu Roblox",
-    Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/TrauHub/refs/heads/main/TrauTX"))()
-  end
-  })
-  AddButton(Tab9o, {
-     Name = "Hop Kitsune Island",
-    Callback = function() 
-    game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, "cba5dc00-a9eb-411a-a708-2ceecfe33fb7", game.Players.LocalPlayer)
-  end
-  })
-  AddButton(Tab9o, {
-     Name = "Hop Soul Reaper",
-    Callback = function() 
-       game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, "42079b6f-5d1d-41e9-8e09-730c0b1dbcda", game.Players.LocalPlayer)
-  end
-  })
-  AddButton(Tab1o, {
-     Name = "Vxeze Hub (Hỗ Trợ 2 game)",
-    Callback = function() 
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/VxezeHubMain"))()    
-  end
-  })
-  AddButton(Tab5o, {
-     Name = "thanv1 Kaitun",
-    Callback = function()
-       Config = {
-["Melee"] = {
-["Superhuman"] = true,
-["Death Step"] = true,
-["Sharkman Karate"] = true,
-["Electric Claw"] = true,
-["Dragon Talon"] = true,
-["Godhuman"] = true
-},
-["Sword"] = {
-["Saber"] = true,
-["Rengoku"] = true,
-["Canvander"] = true,
-["Buddy Sword"] = true,
-["Yama"] = true,
-["Tushita"] = true,
-["True Triple Katana"] = true,
-["Cursed Dual Katana"] = true
-},
-["Gun"] = {
-["Kabucha"] = true,
-["Acidum Rifle"] = true,
-["Serpent Bow"] = true
-},
-["Mastery"] = {
-["Sword"] = true
-},
-["Setting"] = {
-["Enabled"] = true,
-["Bring Mob [Less Lag]"] = true,
-["Hop Server"] = true,
-["Reduce Lag"] = true,
-["Notifycation Remove"] = true,
-["Hop When Player Nearby"] = {
-["Enabled"] = true,
-["Radius"] = 350
-}
-}
-}
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TrashLua/BloxFruits/main/KaitunBeta.RiseEvo"))()
-  end
-  })
- AddButton(Tab2o, {
-     Name = "Than hub",
-    Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/thantzy/thanhub/refs/heads/main/thanv1"))()
-  end
-  })
-  AddButton(Tab11o, {
-     Name = "Hung Hub Auto Bond",
-    Callback = function() 
-       getgenv().AutoExecute = true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hungquan99/HungHub/main/loader.lua"))()
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Andezai Buy menk9999 hub",
-    Callback = function()
-       repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-getgenv().Key = "W4XJYVMTXB5UHBTYJ5ARP6U6JY"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/menk9999/menk/refs/heads/main/menk2987.lua"))()
-  end
-  })
-  AddButton(Tab11o, {
-     Name = "Hung Hub Auto Bond",
-    Callback = function() 
-       getgenv().AutoExecute = true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hungquan99/HungHub/main/loader.lua"))()
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Teddy hub",
-    Callback = function() 
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/TeddyHubv2"))()
-  end
-  })
-  AddButton(Tab10o, {
-     Name = "99 đêm trong rừng",
-    Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", true))()    
-  end
-  })
-  AddButton(Tab10o, {
-     Name = "HuTao Hub",
-    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/SLK-gaming/Hutao-Hub/refs/heads/main/99-Nights-In-The-Forest.txt"))()    
-  end
-  })
-  AddButton(Tab12o, {
-     Name = "Arbix Hub",
-    Callback = function() 
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/Youifpg/Steal-a-Brianrot/refs/heads/main/ArbixHubBEST.lua"))()
-  end
-  })
-  AddButton(Tab12o, {
-     Name = "ko bt ten",
-    Callback = function() 
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/Estevansit0/KJJK/refs/heads/main/PusarX-loader.lua"))()    
-  end
-  })
-  AddButton(Tab7o, {
-     Name = "Aim Bot",
-    Callback = function() 
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/AimBotSkibidi/refs/heads/main/TuanAnhIOS-AIMBOT.Lua"))()
-  end
-  })
-  AddButton(Tab6o, {
-     Name = "BlueXHub",
-    Callback = function() 
-    getgenv().Config = {
-    ["Time To Sell"] = 35, -- Seconds
-    ["Craft Event"] = {
-        ["Crafters Seed Pack"] = true,
-        ["Anti Bee Egg"] = true
-    },
-    ["Dont Open Pack"] = false,
-    ["Mode Plant"] = "Auto", -- "Custom"
+# 💎 Giá Trị Của HNC Hub
 
-    ["Seed"] = { -- Seed Plant Custom
-        ["Strawberry"] = 44,
-        ["Blueberry"] = 44,
-        ["Tomato"] = 44,
-        ["Loquat"] = 44,
-        ["Pineapple"] = 44,
-        ["Carrot"] = 44,
-        ["Bell Pepper"] = 44,
-        ["Green Apple"] = 44,
-        ["Feijoa"] = 44,
-        ["Avocado"] = 44,
-        ["Sugar Apple"] = 44,
-        ["Banana"] = 44,
-        ["Prickly Pear"] = 44,
-        ["Watermelon"] = 44,
-        ["Kiwi"] = 44
-    },
-    ["Keep Seed"] = {"Dragon Pepper", "Elephant Ears", "Sunflower", "Candy Blossom"},
-    ["Egg"] = {
-        ["Mythical Egg"] = {
-            ["Buy"] = true,
-            ["Place"] = true,
-            ["Priority"] = 5
-        },
-        ["Oasis Egg"] = {
-            ["Place"] = true,
-            ["Priority"] = 6
-        },
-        ["Anti Bee Egg"] = {
-            ["Place"] = true,
-            ["Priority"] = 1
-        },
-        ["Night Egg"] = {
-            ["Place"] = true,
-            ["Priority"] = 4
-        },
-        ["Bug Egg"] = {
-            ["Buy"] = true,
-            ["Place"] = true,
-            ["Priority"] = 2
-        },
-        ["Paradise Egg"] = {
-            ["Buy"] = true,
-            ["Place"] = true,
-            ["Priority"] = 3
-        },
-        ["Bee Egg"] = {
-            ["Buy"] = true,
-            ["Place"] = false,
-            ["Priority"] = 3
-        },
-        ["Dinosaur Egg"] = {
-            ["Place"] = true,
-            ["Priority"] = 1
-        },
-        ["Primal Egg"] = {
-            ["Place"] = true,
-            ["Priority"] = 1
-        },
-        ["Zen Egg"] = {
-            ["Place"] = true,
-            ["Priority"] = 1
-        }
-    },
+> **✨ Giao lưu vui vẻ, hòa đồng như anh em một nhà**
+> **🧠 Làm về Hack & Script Roblox cực chất**
+> **🍃 Update script Blox Fruits nhanh như tia chớp**
+> **💞 Không Toxic – Không Var – Không Scam**
+> **👑 Admin siêu dễ thương, luôn lắng nghe cộng đồng**
+---
+# ⚡ Script Chính Thức – HNC Hub On Top!
 
-    ["Limit Tree"] = 250,
-    ["Sprinkler"] = {
-        ["Place Sprinkler"] = true,
-        ["Buy Sprinkler"] = true,
-        ["Basic Sprinkler"] = true,
-        ["Advanced Sprinkler"] = true,
-        ["Master Sprinkler"] = true,
-        ["Godly Sprinkler"] = true
-    },
-    ["PetNeedSend"] = {"Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus", "Kitsune"},
-    ["Destroy Mode"] = {
-        ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
-        ["Mode Destroy"] = "Auto", -- "Custom"
-        ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Orange Tulip", "Carrot"},
-        ["Rarity Destroy Auto"] = {"Common", "Uncommon", "Rare", "Legendary"},
-        ["Destroy Untill"] = 150
-    },
-    ["Zen Event"] = {
-        ["Restock Max Cost"] = 16000000,
-        ["Zen Seed Pack"] = true,
-        ["Zen Egg"] = true,
-        ["Koi"] = true,
-        ["Spiked Mango"] = true
-    },
-    ["Url"] = "", -- Webhook 
-    ["Black Screen"] = true,
-    ["Note"] = "Blue X Hub",
-    ["Pet Mode"] = {
-        ["Sell Pet"] = true,
-        ["Equip Pet"] = true,
-        ["Name Pet Equip"] = {
-            ["Kitsune"] = 5, -- Limit Pet Equip
-            "Giant Ant" -- Unlimited Pet
-        },
-        ["Max Slot Pet To Sell"] = 5, -- If Total Pet In Inventory >= ["Max Slot Pet To Sell"] script will sell pet
-        ["Upgrade Slot Egg"] = {
-            ["Enable"] = true,
-            ["Pet"] = {"Starfish"}
+```getgenv().team = "Marines" -- Pirates (Hải Tặc) hoặc Marines (Hải Quân)
+repeat task.wait() until game:IsLoaded() and game.Players.LocalPlayer:FindFirstChild("DataLoaded")
+game.ReplicatedStorage:WaitForChild("Remotes").CommF_:InvokeServer("SetTeam", getgenv().team)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hnc-roblox/HNCHubOnTop/refs/heads/main/HNC_Roblox.lua"))()```
+--//
+# 💬 Tham Gia Cộng Đồng Ngay!
 
-        },
-        ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
-                               "Mimic Octopus", "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
-                               "Hamster", "Golden Lab", "T-Rex", "Spinosaurus", "Ankylosaurus", "Kitsune"},
-        ["Dont Sell Pet If Weight > x"] = 10 -- Script dont sell pet if this weight >= 10
-    },
-    ["Webhook Mode"] = {
-        ["Enable Send Pet Weight"] = false,
-        ["Weight"] = 10 -- if Weight >= 10 they will send wh
-    }
-}
-loadstring(game:HttpGet("https://raw.githubusercontent.com/fakekuri/BlueXHub/refs/heads/main/kaitungag.lua"))()
-  end
-  })AddButton(Tab8o, {
-     Name = "teedy fake cuttay hub",
-    Callback = function() 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDYHUB-AUTOPULLLever"))()
-  end
-  })
-  AddButton(Tab11o, {
-     Name = "auto win",
-    Callback = function() 
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/TwoGunVolley/Dedrail/refs/heads/main/Protected_8860927939362090.txt"))()
-  end
-  })
-  AddButton(Tab8o, {
-     Name = "Fly Up draco",
-    Callback = function() 
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/TdatR/Fly/refs/heads/main/TdatFly.txt"))()
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Tuấn Anh ios",
+**👉 Discord:** https://discord.gg/wa52S9VvPP
+
+> **❤️ Vô lẹ đi để đẹp zai, xinh gái, ngầu chất ngất cùng HNC Hub nhaaa!!!**
+> **🚀 “Một khi đã vào HNC – script là nghệ thuật, người dùng là nghệ sĩ!” 🎭**
+]]--
+--// Dịch vụ Roblox
+local Players = game:GetService("Players")
+local UserInput = game:GetService("UserInputService")
+local RunService = game:GetService("RunService")
+local TweenService = game:GetService("TweenService")
+
+local LocalPlayer = Players.LocalPlayer
+local Character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+local Humanoid = Character:WaitForChild("Humanoid")
+
+--// Tải UI Library
+local success, UI = pcall(function()
+    return loadstring(game:HttpGet("https://raw.githubusercontent.com/daucobonhi/UiRedzV5/refs/heads/main/DemoUi.lua"))()
+end)
+if not success then
+    warn("⚠️ Không thể tải UI Library!")
+    return
+end
+
+--// Tạo cửa sổ
+local Window = UI:MakeWindow({
+    Title = "HNC Hub",
+    SubTitle = "By @hnc_roblox",
+    SaveFolder = "AnuraCombo"
+})
+
+-- Nút thu gọn
+Window:AddMinimizeButton({
+    Button = { Image = "rbxassetid://529401394968", BackgroundTransparency = 0 },
+    Corner = { CornerRadius = UDim.new(1, 0) }
+})
+
+--// Tab chính
+local DiscordTab = Window:MakeTab({ "Discord" "Info"})
+
+local MainTab = Window:MakeTab({ "Main" "Home"})
+MainTab:AddSection("Bác Gấu Sẽ gầy🥵")
+
+--// Biến đấm
+local isPunching = false
+local PunchAnim
+local TargetPlayer = nil
+local PlayerList = {}
+
+local function RefreshPlayerList()
+    PlayerList = {}
+    for _, p in ipairs(Players:GetPlayers()) do
+        if p ~= LocalPlayer then
+            table.insert(PlayerList, p.Name)
+        end
+    end
+end
+RefreshPlayerList()
+
+-- Dropdown chọn người chơi
+local PunchToggle
+MainTab:AddDropdown({
+    Name = "Select Player",
+    Options = PlayerList,
+    Callback = function(selected)
+        TargetPlayer = Players:FindFirstChild(selected)
+    end
+})
+
+-- Nút làm mới danh sách
+MainTab:AddButton({
+    Name = "Reset Player",
     Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/TuanAnhIOS/refs/heads/main/TuanAnhIOS.lua"))()
-  end
-  })
-  AddButton(Tab13o, {
-     Name = "auto find fruit",
-    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/AutoFruitDepzai/refs/heads/main/TuanAnhIOS-Find-Fruit.Lua"))()
-  end
-  })
-  AddButton(Tab5o, {
-     Name = "TrongNguyen Kaitun",
-    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/trongnguyenhubbloxfruit/Trongnguyentonghop/refs/heads/main/TrongNguyen-kaitun.txt"))()
-  end
-  })
-  AddButton(Tab3o, {
-     Name = "Fix Lag",
-    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Astral Hub",
-    Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Zinner Hub Grow a garden",
-    Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/HoangNguyenk8/Roblox/refs/heads/main/GrowAGarden.luau"))()    
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Min Gaming Fake Maru Hub",
-    Callback = function()
-      getgenv().Team = "Pirates"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/MinGamingHubNew/RealMinGaming/refs/heads/main/MinGaminvHubBloxFruits.lua"))()
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Min Gaming English",
-    Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinAE"))()
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "HoHo Hub",
-    Callback = function()
-       _G.HohoVersion = "v4"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Kimp Roblox",
-    Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/KimPRobloxV3"))()
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Andepzak by h.6.h",
-    Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/h6hbii/AnDepZaiHub/refs/heads/main/AndepzaiHub.lua"))()
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Andepzai real",
-    Callback = function()
-       repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubNewUpdated.lua"))()
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Tsuo Hub",
-    Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Zis Roblox Banana Hub",
-    Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisOrion"))()
-  end
-  })
-  AddButton(Tab7o, {
-     Name = "Vxeze hub",
-    Callback = function()
-       loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Vxeze-Hub-Auto-Bounty-42378"))()  
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "BlueXhub",
-    Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "Yuri Hub",
-    Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/YuriMain", true))() 
-  end
-  })
-  AddButton(Tab7o, {
-     Name = "Văn Thành ios",
-    Callback = function()
-       loadstring(Game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/OniiChanVanThanhIOS/refs/heads/main/oniichanpakavanthanhios"))()
-  end
-  })
-  AddButton(Tab3o, {
-     Name = "menk9999 FixLag",
-    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/trongnguyenhubbloxfruit/TrongnguyenFixLag/refs/heads/main/SkidCondimemay.txt"))()
-  end
-  })
-  AddButton(Tab5o, {
-     Name = "Yinner Hub Kaitun Hop",
-    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/cocaigidaumaskid/Yiner-Hub/refs/heads/main/KaitunTyrantOfTheSkies.lua"))()
-  end
-  })
-  AddButton(Tab11o, {
-     Name = "Zumacu Dead Rail",
-    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/skibidip1/Hack/refs/heads/main/Auto%20bond"))()
-  end
-  })
-  AddButton(Tab2o, {
-     Name = "NaNa Tv Hub",
-    Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/trongnguyenhubbloxfruit/NANATVHUB/refs/heads/main/NaNaTvHub.txt"))()
-  end
-  })
-    AddButton(Tab14o, {
-     Name = "Maru Hub Premium",
-    Callback = function()
-       getgenv().Key = "MARU-WN6LS-OPOW-B2MX-778PW-0US1J"
-getgenv().id = "1377267119451934830"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
-  end
-  })
-    AddButton(Tab14o, {
-     Name = "Banans Cat Hub Premium",
-    Callback = function()
-       repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
-getgenv().Key = "887b508e0464a08e0ea0fb14" 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
-  end
-  })
-    AddButton(Tab3o, {
-     Name = "FAKE LAG mm2",
-    Callback = function() 
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/catwljz/mm/refs/heads/main/fakelag.txt"))()
-  end
-  })
-  
-  
-  
-   
+        RefreshPlayerList()
+        UI:Notification("✅ Đã làm mới danh sách!", 2)
+    end
+})
+
+-- Tải animation đấm
+local function LoadPunchAnimation()
+    local anim = Instance.new("Animation")
+    anim.AnimationId = "rbxassetid://148840371"
+    PunchAnim = Humanoid:LoadAnimation(anim)
+    PunchAnim.Looped = true
+end
+
+-- Toggle đấm
+PunchToggle = MainTab:AddToggle({
+    Name = "Make Love",
+    Default = false,
+    Callback = function(state)
+        isPunching = state
+
+        if not TargetPlayer then
+            UI:Notification("⚠️ Hãy chọn người chơi trước!", 3)
+            PunchToggle:Set(false)
+            return
+        end
+
+        if isPunching then
+            if not PunchAnim then LoadPunchAnimation() end
+            PunchAnim:Play()
+
+            task.spawn(function()
+                while isPunching and Humanoid and Humanoid.Parent do
+                    local char = LocalPlayer.Character
+                    if not char then break end
+
+                    local LeftLeg = char:FindFirstChild("Left Leg") or char:FindFirstChild("LeftLowerLeg")
+                    local RightLeg = char:FindFirstChild("Right Leg") or char:FindFirstChild("RightLowerLeg")
+                    pcall(function()
+                        if LeftLeg then LeftLeg.CFrame *= CFrame.Angles(math.rad(-45), 0, 0) end
+                        if RightLeg then RightLeg.CFrame *= CFrame.Angles(math.rad(-45), 0, 0) end
+                    end)
+                    task.wait(0.1)
+                end
+            end)
+
+            task.spawn(function()
+                while isPunching and TargetPlayer and TargetPlayer.Character and LocalPlayer.Character do
+                    local targetHRP = TargetPlayer.Character:FindFirstChild("HumanoidRootPart")
+                    local myHRP = LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+
+                    if targetHRP and myHRP then
+                        myHRP.CFrame = targetHRP.CFrame * CFrame.new(0, 0, 0.8)
+                    else
+                        break
+                    end
+                    task.wait(0.03)
+                end
+            end)
+
+            UI:Notification("✅ Đang đấm đối thủ!", 3)
+        else
+            if PunchAnim then PunchAnim:Stop() end
+            UI:Notification("🛑 Dừng đấm!", 3)
+        end
+    end
+})
+
+--// 🕺 Sốc lắc (Dance)
+MainTab:AddSection("Chill Guy🥵🗿")
+
+local isDancing = false
+local DanceAnim
+
+local function GetRigType()
+    return Humanoid.RigType == Enum.HumanoidRigType.R15 and "R15" or "R6"
+end
+
+local DanceAnimation = Instance.new("Animation")
+DanceAnimation.AnimationId = (GetRigType() == "R15") and "rbxassetid://698251653" or "rbxassetid://72042024"
+
+local function DanceLoop()
+    while isDancing do
+        if not DanceAnim then
+            DanceAnim = Humanoid:LoadAnimation(DanceAnimation)
+        end
+        DanceAnim:Play()
+        DanceAnim:AdjustSpeed(0.7)
+        DanceAnim.TimePosition = 0.6
+        task.wait(0.3)
+        if DanceAnim then
+            DanceAnim:Stop()
+            DanceAnim:Destroy()
+            DanceAnim = nil
+        end
+    end
+end
+
+local DanceToggle = MainTab:AddToggle({
+    Name = "Gunning",
+    Default = false,
+    Callback = function(state)
+        isDancing = state
+        if isDancing then
+            task.spawn(DanceLoop)
+            UI:Notification("🎵 Đang nhảy!", 3)
+        else
+            if DanceAnim then
+                DanceAnim:Stop()
+                DanceAnim:Destroy()
+                DanceAnim = nil
+            end
+            UI:Notification("🛑 Dừng nhảy!", 3)
+        end
+    end
+})
+
+--// 😎 Chill Guy Mode
+
+local ChillObjects = {}
+local ChillActive = false
+
+local function EnableChill()
+    local char = LocalPlayer.Character
+    if not char then return end
+    local hrp = char:FindFirstChild("HumanoidRootPart")
+    if not hrp then return end
+
+    Humanoid.PlatformStand = true
+    Humanoid.AutoRotate = false
+
+    local bv = Instance.new("BodyVelocity")
+    bv.MaxForce = Vector3.new(4000, 4000, 4000)
+    bv.Velocity = Vector3.zero
+    bv.P = 1000
+    bv.Parent = hrp
+    ChillObjects.BodyVelocity = bv
+
+    local bav = Instance.new("BodyAngularVelocity")
+    bav.MaxTorque = Vector3.new(2000, 2000, 2000)
+    bav.AngularVelocity = Vector3.new(.5, .2, .5)
+    bav.P = 1500
+    bav.Parent = hrp
+    ChillObjects.BodyAngularVelocity = bav
+
+    ChillActive = true
+    UI:Notification("😎 Chill Guy mode bật!", 3)
+end
+
+local function DisableChill()
+    Humanoid.PlatformStand = false
+    Humanoid.AutoRotate = true
+    for _, obj in pairs(ChillObjects) do
+        if obj then obj:Destroy() end
+    end
+    ChillObjects = {}
+    ChillActive = false
+    UI:Notification("🛑 Chill Guy mode tắt!", 3)
+end
+
+local ChillToggle = MainTab:AddToggle({
+    Name = "Fly",
+    Default = false,
+    Callback = function(state)
+        if state then EnableChill() else DisableChill() end
+    end
+})
+
+RunService.Heartbeat:Connect(function()
+    if not ChillActive or not ChillObjects.BodyVelocity then return end
+    local moveVec = Vector3.new(
+        UserInput:IsKeyDown(Enum.KeyCode.D) and 1 or UserInput:IsKeyDown(Enum.KeyCode.A) and -1 or 0,
+        UserInput:IsKeyDown(Enum.KeyCode.Space) and 1 or UserInput:IsKeyDown(Enum.KeyCode.LeftControl) and -1 or 0,
+        UserInput:IsKeyDown(Enum.KeyCode.W) and -1 or UserInput:IsKeyDown(Enum.KeyCode.S) and 1 or 0
+    )
+
+    local hrp = LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+    if hrp then
+        local cam = workspace.CurrentCamera
+        local moveDir = (cam.CFrame.RightVector * moveVec.X + cam.CFrame.UpVector * moveVec.Y) + cam.CFrame.LookVector * moveVec.Z
+        ChillObjects.BodyVelocity.Velocity = (moveVec.Magnitude > 0) and moveDir * 5 or ChillObjects.BodyVelocity.Velocity * 0.85
+    end
+end)
+
+-- Reset khi chết
+LocalPlayer.CharacterAdded:Connect(function(newChar)
+    Character = newChar
+    Humanoid = newChar:WaitForChild("Humanoid")
+end)
+
+Humanoid.Died:Connect(function()
+    isPunching = false
+    isDancing = false
+    DisableChill()
+
+    if PunchAnim then PunchAnim:Stop() end
+    if DanceAnim then DanceAnim:Stop() end
+
+    PunchToggle:Set(false)
+    DanceToggle:Set(false)
+    ChillToggle:Set(false)
+end)
+
