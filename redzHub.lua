@@ -38,7 +38,7 @@ local Dropdown = Tab2:AddDropdown({
   Description = "Điều chỉnh kích thước giao diện",
   Options = {"Small", "Medium", "Large", "Bigger"},
   Default = "Large",
-  Flag = "Small",
+  Flag = "Large",
   Callback = function()
     
   end
