@@ -135,7 +135,7 @@ local plr = game:GetService("Players").LocalPlayer
 local Notification = require(game:GetService("ReplicatedStorage").Notification)
 
 -- Thông báo chào mừng
-Notification.new("HoangAnh Nè"):Display()
+Notification.new("<Color=Yellow>HoangAnh Nè<Color=/>"):Display()
 task.wait(1)
 
 -- LocalScript (đặt trong StarterPlayerScripts)
@@ -145,7 +145,7 @@ local RunService = game:GetService("RunService")
 local player = Players.LocalPlayer
 
 -- Tùy chỉnh
-local TEXT = "HoangAnh Hub"
+local TEXT = "HoangAnh đz"
 local TEXT_SIZE = 14                 -- kích thước chữ (không quá to)
 local GUI_OFFSET = Vector3.new(0, 1.8, 0) -- khoảng cách so với đầu
 local RAINBOW_SPEED = 1.0           -- tốc độ đổi màu (1 = bình thường, tăng để nhanh hơn)
@@ -3347,10 +3347,10 @@ end
 local library = {}
 
 _G.Color = Color3.fromRGB(0, 0, 255)
-_G.imageLogo = "rbxassetid://2735915549"
-_G.Logo = "rbxassetid://2735915549"
+_G.imageLogo = "rbxassetid://112528931029640"
+_G.Logo = "rbxassetid://112528931029640"
 _G.NameHub = "https://discord.gg/PZjYSMM7SG" -- ชื่อ Hub
-_G.Title = "HoangAnh Hub" -- คำอธิบาย
+_G.Title = "TDT Hub" -- คำอธิบาย
 -----------------------------------------------------------------
 
 local isUIEnabled = true 
@@ -12032,9 +12032,9 @@ end
 game:GetService("StarterGui"):SetCore(
     "SendNotification",
     {
-        Title = "TDT Hub",
+        Title = "HoangAnh",
         Text = "Đã Tải Xong",
-        Icon = "rbxassetid://112528931029640",
+        Icon = "rbxassetid://2735915549",
         Duration = 5
     }
 )
