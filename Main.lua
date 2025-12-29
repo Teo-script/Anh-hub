@@ -135,7 +135,9 @@ local plr = game:GetService("Players").LocalPlayer
 local Notification = require(game:GetService("ReplicatedStorage").Notification)
 
 -- Thông báo chào mừng
-Notification.new("<Color=Yellow>HoangAnh Nè<Color=/>"):Display()
+Notification.new("<Color=Yellow>Việt Nam mãi đỉnh<Color=/>"):Display()
+task.wait(1)
+Notification.new("<Color=Yellow>Cali tuổi lồn haha<Color=/>"):Display()
 task.wait(1)
 
 -- LocalScript (đặt trong StarterPlayerScripts)
@@ -145,7 +147,7 @@ local RunService = game:GetService("RunService")
 local player = Players.LocalPlayer
 
 -- Tùy chỉnh
-local TEXT = "HoangAnh đz"
+local TEXT = "Việt Nam"
 local TEXT_SIZE = 14                 -- kích thước chữ (không quá to)
 local GUI_OFFSET = Vector3.new(0, 1.8, 0) -- khoảng cách so với đầu
 local RAINBOW_SPEED = 1.0           -- tốc độ đổi màu (1 = bình thường, tăng để nhanh hơn)
@@ -3347,10 +3349,10 @@ end
 local library = {}
 
 _G.Color = Color3.fromRGB(0, 0, 255)
-_G.imageLogo = "rbxassetid://112528931029640"
-_G.Logo = "rbxassetid://112528931029640"
-_G.NameHub = "https://discord.gg/PZjYSMM7SG" -- ชื่อ Hub
-_G.Title = "TDT Hub" -- คำอธิบาย
+_G.imageLogo = "rbxassetid://2735915549"
+_G.Logo = "rbxassetid://2735915549"
+_G.NameHub = "https://discord.gg/PZjYSMM7S" -- ชื่อ Hub
+_G.Title = "Việt Nam" -- คำอธิบาย
 -----------------------------------------------------------------
 
 local isUIEnabled = true 
@@ -3385,7 +3387,7 @@ ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.120833337 - 0.10, 0, 0.0952890813 + 0.01, 0)
 ImageButton.Size = UDim2.new(0, 50, 0, 50)
 ImageButton.Draggable = true
-ImageButton.Image = "rbxassetid://112528931029640"
+ImageButton.Image = "rbxassetid://2735915549"
 
 UICorner.CornerRadius = UDim.new(1, 0)
 UICorner.Parent = ImageButton
@@ -3441,7 +3443,7 @@ function CircleClick(Button, X, Y)
 				Circle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				Circle.BackgroundTransparency = 1.000
 				Circle.ZIndex = 10
-				Circle.Image = "rbxassetid://112528931029640"
+				Circle.Image = "rbxassetid://2735915549"
 				Circle.ImageColor3 = Color3.fromRGB(255, 255, 255)
 				Circle.ImageTransparency = 0.7
 				local NewX = X - Circle.AbsolutePosition.X
@@ -12032,7 +12034,7 @@ end
 game:GetService("StarterGui"):SetCore(
     "SendNotification",
     {
-        Title = "HoangAnh",
+        Title = "Việt Nam",
         Text = "Đã Tải Xong",
         Icon = "rbxassetid://2735915549",
         Duration = 5
