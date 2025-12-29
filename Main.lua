@@ -143,7 +143,7 @@ Notification.new("<Color=Yellow>Hồ Chí Minh Muôn Năm<Color=/>"):Display()
 task.wait(3)
 Notification.new("<Color=Yellow>Chúc Tết Vui Vẻ<Color=/>"):Display()
 task.wait(3)
-Notification.new("<Color=Yellow>Cali Tuổi lồn<Color=/>");Display()
+Notification.new("<Color=Yellow>Cali Tuổi lồn<Color=/>"):Display()
 task.wait(3)
 
 -- LocalScript (đặt trong StarterPlayerScripts)
