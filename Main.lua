@@ -135,10 +135,16 @@ local plr = game:GetService("Players").LocalPlayer
 local Notification = require(game:GetService("ReplicatedStorage").Notification)
 
 -- Thông báo chào mừng
-Notification.new("<Color=Yellow>Việt Nam mãi đỉnh<Color=/>"):Display()
-task.wait(1)
-Notification.new("<Color=Yellow>Cali tuổi lồn haha<Color=/>"):Display()
-task.wait(1)
+Notification.new("<Color=Yellow>Việt Nam Mãi Đỉnh<Color=/>"):Display()
+task.wait(3)
+Notification.new("<Color=Yellow>Bác Hồ Vĩ Đại<Color=/>"):Display()
+task.wait(3)
+Notification.new("<Color=Yellow>Hồ Chí Minh Muôn Năm<Color=/>"):Display()
+task.wait(3)
+Notification.new("<Color=Yellow>Chúc Tết Vui Vẻ<Color=/>"):Display()
+task.wait(3)
+Notification.new("<Color=Yellow>Cali Tuổi lồn<Color=/>");Display()
+task.wait(3)
 
 -- LocalScript (đặt trong StarterPlayerScripts)
 local Players = game:GetService("Players")
@@ -3387,7 +3393,7 @@ ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.120833337 - 0.10, 0, 0.0952890813 + 0.01, 0)
 ImageButton.Size = UDim2.new(0, 50, 0, 50)
 ImageButton.Draggable = true
-ImageButton.Image = "rbxassetid://2735915549"
+ImageButton.Image = "rbxassetid://112528931029640"
 
 UICorner.CornerRadius = UDim.new(1, 0)
 UICorner.Parent = ImageButton
