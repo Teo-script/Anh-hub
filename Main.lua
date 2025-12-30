@@ -12042,8 +12042,8 @@ end
 game:GetService("StarterGui"):SetCore(
     "SendNotification",
     {
-        Title = "TDT Hub",
-        Text = "Đã Tải Xong",
+        Title = "Skibidi Hub",
+        Text = "Loading Success !",
         Icon = "rbxassetid://112528931029640",
         Duration = 5
     }
