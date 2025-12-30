@@ -145,8 +145,8 @@ Notification.new("<Color=Yellow>Bác Hồ Vĩ Đại Muôn Năm<Color=/>"):Displ
 task.wait(3)
 Notification.new("<Color=Yellow>Năm Mới Chúc Nước Việt Nam Vui Vẻ<Color=/>"):Display()
 task.wait(3)
-Notification.new("<Color=Yellow>Cali con cặc tuổi lồn<Color=/>")Display()
-task.wait(3)--
+Notification.new("<Color=Yellow>Cali con cặc tuổi lồn<Color=/>"):Display()
+task.wait(3)
 
 -- LocalScript (đặt trong StarterPlayerScripts)
 local Players = game:GetService("Players")
